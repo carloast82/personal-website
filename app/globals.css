@@ -8,6 +8,10 @@ html {
   scroll-behavior: smoothm !important;
 }
 
+[id] {
+  scroll-margin-top: 100px; /* 120px di navbar + 20px di spazio estetico */
+}
+
 @theme {
   /* Sostituisci questi codici HEX con quelli esatti del tuo Figma */
   --color-nero: #1a1a1a;

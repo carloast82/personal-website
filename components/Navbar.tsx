@@ -17,18 +17,37 @@ import {
 } from "@/components/utils/animations";
 
 export default function Navbar() {
+  // Questa funzione intercetta il click e forza lo scroll fluido via software
+  const handleScroll = (
+    e: React.MouseEvent<HTMLAnchorElement>,
+    targetId: string,
+  ) => {
+    e.preventDefault(); // Blocca il "teletrasporto" di Next.js
+
+    const element = document.getElementById(targetId);
+    if (element) {
+      element.scrollIntoView({
+        behavior: "smooth",
+        block: "start", // Allinea la sezione in cima allo schermo
+      });
+
+      // Aggiorna l'URL del browser con l'ancora (es: #filosofia) senza far saltare la pagina
+      window.history.pushState(null, "", `#${targetId}`);
+    }
+  };
+
   const viewportConfig =
     typeof window !== "undefined" && window.innerWidth < 768
       ? mobileViewport
       : desktopViewport;
 
   const navLinks = [
-    { name: "Chi Sono", href: "#chi-sono" },
-    { name: "Come Lavoro", href: "#come-lavoro" },
-    { name: "Esperienze", href: "#esperienze" },
-    { name: "Competenze", href: "#competenze" },
-    { name: "Portfolio Progetti", href: "#progetti" },
-    { name: "Contatti", href: "#contatti" },
+    { name: "Chi Sono", href: "#chi-sono", scrollto: "chi-sono" },
+    { name: "Come Lavoro", href: "#come-lavoro", scrollto: "come-lavoro" },
+    { name: "Esperienze", href: "#esperienze", scrollto: "esperienze" },
+    { name: "Competenze", href: "#competenze", scrollto: "competenze" },
+    { name: "Portfolio Progetti", href: "#progetti", scrollto: "progetti" },
+    { name: "Contatti", href: "#contatti", scrollto: "contatti" },
   ];
 
   const MotionLink = motion.create(Link);
@@ -65,13 +84,14 @@ export default function Navbar() {
         {/* MENU DI NAVIGAZIONE (Centrale/Destra) */}
         <nav className="hidden md:flex items-center gap-6 lg:gap-8">
           {navLinks.map((link) => (
-            <Link
+            <a
               key={link.name}
               href={link.href}
+              onClick={(e) => handleScroll(e, link.scrollto)}
               className="font-sans text-sm font-medium text-gray-600 hover:text-blue transition-colors py-2"
             >
               {link.name}
-            </Link>
+            </a>
           ))}
         </nav>
 

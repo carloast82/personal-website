@@ -19,13 +19,31 @@ export default function MobileNav() {
     };
   }, [isOpen]);
 
+  const handleScroll = (
+    e: React.MouseEvent<HTMLAnchorElement>,
+    targetId: string,
+  ) => {
+    e.preventDefault(); // Blocca il "teletrasporto" di Next.js
+
+    const element = document.getElementById(targetId);
+    if (element) {
+      element.scrollIntoView({
+        behavior: "smooth",
+        block: "start", // Allinea la sezione in cima allo schermo
+      });
+
+      // Aggiorna l'URL del browser con l'ancora (es: #filosofia) senza far saltare la pagina
+      window.history.pushState(null, "", `#${targetId}`);
+    }
+  };
+
   const navLinks = [
-    { name: "Chi Sono", href: "#chi-sono" },
-    { name: "Come Lavoro", href: "#come-lavoro" },
-    { name: "Esperienze", href: "#esperienze" },
-    { name: "Competenze", href: "#competenze" },
-    { name: "Portfolio", href: "#progetti" },
-    { name: "Contatti", href: "#contatti" },
+    { name: "Chi Sono", href: "#chi-sono", scrollto: "chi-sono" },
+    { name: "Come Lavoro", href: "#come-lavoro", scrollto: "come-lavoro" },
+    { name: "Esperienze", href: "#esperienze", scrollto: "esperienze" },
+    { name: "Competenze", href: "#competenze", scrollto: "competenze" },
+    { name: "Portfolio Progetti", href: "#progetti", scrollto: "progetti" },
+    { name: "Contatti", href: "#contatti", scrollto: "contatti" },
   ];
 
   return (
@@ -58,14 +76,32 @@ export default function MobileNav() {
             id="mobilenav_container"
           >
             {navLinks.map((link) => (
-              <Link
+              <a
                 key={link.name}
                 href={link.href}
-                onClick={() => setIsOpen(false)}
+                onClick={(e) => {
+                  // 1. Chiude il menu mobile
+                  setIsOpen(false);
+
+                  // 2. Gestisce lo scroll fluido se è un'ancora interna
+                  if (link.href.startsWith("#")) {
+                    e.preventDefault(); // Blocca il salto istantaneo
+                    const targetId = link.href.replace("#", "");
+                    const element = document.getElementById(targetId);
+
+                    if (element) {
+                      element.scrollIntoView({
+                        behavior: "smooth",
+                        block: "start",
+                      });
+                      window.history.pushState(null, "", link.href);
+                    }
+                  }
+                }}
                 className="text-2xl font-bold text-navy hover:text-senape transition-colors"
               >
                 {link.name}
-              </Link>
+              </a>
             ))}
           </motion.div>
         )}
