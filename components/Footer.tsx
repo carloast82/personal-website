@@ -81,20 +81,6 @@ export default function Footer() {
                   Chi Sono
                 </a>
                 <a
-                  href="#competenze"
-                  className="font-sans text-sm text-white/60 hover:text-white transition-colors block"
-                >
-                  Competenze
-                </a>
-                <a
-                  href="#contatti"
-                  className="font-sans text-sm text-white/60 hover:text-white transition-colors block"
-                >
-                  Contatti
-                </a>
-              </div>
-              <div className="space-y-3">
-                <a
                   href="#esperienze"
                   className="font-sans text-sm text-white/60 hover:text-white transition-colors block"
                 >
@@ -105,6 +91,27 @@ export default function Footer() {
                   className="font-sans text-sm text-white/60 hover:text-white transition-colors block"
                 >
                   Portfolio
+                </a>
+              </div>
+              <div className="space-y-3">
+                <a
+                  href="#come-lavoro"
+                  className="font-sans text-sm text-white/60 hover:text-white transition-colors block"
+                >
+                  Come Lavoro
+                </a>
+                <a
+                  href="#competenze"
+                  className="font-sans text-sm text-white/60 hover:text-white transition-colors block"
+                >
+                  Competenze
+                </a>
+
+                <a
+                  href="#contatti"
+                  className="font-sans text-sm text-white/60 hover:text-white transition-colors block"
+                >
+                  Contatti
                 </a>
               </div>
             </div>
@@ -119,7 +126,7 @@ export default function Footer() {
             <div className="space-y-4 pt-2">
               {/* Download CV */}
               <a
-                href="/cv-carlo-astolfi.pdf"
+                href="/cv_Astolfi_Carlo.pdf"
                 download
                 className="group flex items-center gap-3 font-sans text-sm text-white/70 hover:text-white transition-colors"
               >
@@ -137,7 +144,7 @@ export default function Footer() {
 
               {/* Profilo LinkedIn */}
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/carloastolfi/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center gap-3 font-sans text-sm text-white/70 hover:text-white transition-colors"

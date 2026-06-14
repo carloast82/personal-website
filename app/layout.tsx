@@ -25,8 +25,9 @@ const fontMono = Courier_Prime({
 });
 
 export const metadata: Metadata = {
-  title: "Carlo Astolfi | Web Developer & Graphic Designer",
-  description: "Portfolio professionale di Carlo Astolfi",
+  title: "Carlo Astolfi | Full-Stack Web Developer & Graphic Designer",
+  description:
+    "Sviluppo soluzioni web performanti (React, Next.js, PHP) e curo la UI/UX design. Scopri il portfolio di Carlo Astolfi, tra codice e creatività.",
 };
 
 export default function RootLayout({

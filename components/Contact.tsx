@@ -36,7 +36,7 @@ export default function Contact() {
           viewport={viewportConfig}
         >
           <span className="font-mono text-xs uppercase tracking-widest text-navy">
-            Parliamo del tuo progetto
+            Vuoi fare due chiacchere?
           </span>
           <h2 className="font-semibold text-grigio-scuro title-line">
             Contattami

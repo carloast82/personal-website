@@ -4,6 +4,10 @@ body {
   overflow-x: hidden;
 }
 
+html {
+  scroll-behavior: smoothm !important;
+}
+
 @theme {
   /* Sostituisci questi codici HEX con quelli esatti del tuo Figma */
   --color-nero: #1a1a1a;

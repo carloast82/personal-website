@@ -24,7 +24,7 @@ export default function Navbar() {
 
   const navLinks = [
     { name: "Chi Sono", href: "#chi-sono" },
-    { name: "La Mia Filosofia", href: "#filosofia" },
+    { name: "Come Lavoro", href: "#come-lavoro" },
     { name: "Esperienze", href: "#esperienze" },
     { name: "Competenze", href: "#competenze" },
     { name: "Portfolio Progetti", href: "#progetti" },
@@ -85,7 +85,7 @@ export default function Navbar() {
           className="hidden md:block"
         >
           <Link
-            href="/cv-carlo-astolfi.pdf" // Metterai il file dentro la cartella /public
+            href="/cv_Astolfi_Carlo.pdf" // Metterai il file dentro la cartella /public
             download
             className="font-sans text-xs font-semibold tracking-wider uppercase bg-navy hover:bg-senape/90 text-white hover:text-nero px-5 py-2.5 rounded-lg transition-all duration-300 block text-center"
           >

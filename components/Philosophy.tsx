@@ -20,7 +20,7 @@ export default function Philosophy() {
 
   return (
     <section
-      id="filosofia"
+      id="come-lavoro"
       className="bg-grigio-light p-6 lg:p-16 overflow-hidden"
     >
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-8 items-start max-w-max-width mx-auto">
@@ -33,10 +33,10 @@ export default function Philosophy() {
           viewport={viewportConfig}
         >
           <span className="font-mono text-xs uppercase tracking-widest text-navy block mb-2">
-            Dietro le quinte
+            Il Mio Approccio
           </span>
           <h2 className="font-semibold text-grigio-scuro title-line">
-            La Mia Filosofia
+            Come Lavoro
           </h2>
         </motion.div>
 
@@ -73,11 +73,16 @@ export default function Philosophy() {
                 quelle di <strong>Web Developer</strong>. Questo mi permette di
                 coprire l'intera filiera digitale: progetto e disegno la
                 componente visiva e l'esperienza utente (UI/UX) su strumenti
-                come <strong>Figma</strong>, <strong>Photoshop</strong> o{" "}
-                <strong>Adobe XD</strong>, per poi tradurre autonomamente i
-                layout in un codice frontend solido e responsive basato su{" "}
-                <strong>HTML5</strong>, <strong>CSS3</strong> (
-                <strong>SCSS/LESS</strong>) e <strong>JavaScript</strong>.
+                come <strong>Figma, Photoshop o Adobe XD</strong>, per poi
+                tradurre autonomamente i layout in un codice frontend solido e
+                responsive basato su <strong>HTML5, CSS3 (SCSS/LESS)</strong> e{" "}
+                <strong>JavaScript</strong>.
+              </motion.p>
+              <motion.p variants={fadeInRight}>
+                Recentemente ho ampliato il mio ecosistema di sviluppo
+                integrando framework moderni come <strong>React</strong> e{" "}
+                <strong>Next.js</strong>, tecnologie all'avanguardia con cui ho
+                pensato e realizzato proprio questo sito web.
               </motion.p>
 
               <motion.p variants={fadeInRight}>

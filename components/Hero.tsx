@@ -13,7 +13,10 @@ import {
 
 export default function Hero() {
   return (
-    <section className="bg-bianco text-nero overflow-hidden border-b border-grigio-chiaro">
+    <section
+      className="bg-bianco text-nero overflow-hidden border-b border-grigio-chiaro"
+      id="chi-sono"
+    >
       {/* Trasformiamo il div principale in un motion.div per attivare le varianti */}
       <motion.div
         className="container-site grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-center md:min-h-225"
@@ -56,7 +59,7 @@ export default function Hero() {
             variants={fadeInUp}
             className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10 max-w-lg font-sans text-sm text-grigio-scuro"
           >
-            <div className="flex items-center gap-3">
+            <div className="flex items-start gap-3">
               <span className="text-navy font-bold">
                 <Image
                   src="/images/icon-location.svg"
@@ -66,10 +69,10 @@ export default function Hero() {
                   preload
                 />
               </span>
-              <span>Ferrara, Italia (Automunito)</span>
+              <span>Ferrara, Italia</span>
             </div>
 
-            <div className="flex items-center gap-3">
+            <div className="flex items-start gap-3">
               <span className="text-navy font-bold">
                 <Image
                   src="/images/icon-design-2.svg"
@@ -82,7 +85,7 @@ export default function Hero() {
               <span>Adobe Creative Suite & Figma</span>
             </div>
 
-            <div className="flex items-center gap-3">
+            <div className="flex items-start gap-3">
               <span className="text-navy font-bold">
                 <Image
                   src="/images/icon-code.svg"
@@ -92,10 +95,14 @@ export default function Hero() {
                   preload
                 />
               </span>
-              <span>PHP, JS, HTML5, CSS/SCSS</span>
+              <span>
+                PHP, JS, HTML5, CSS/SCSS
+                <br />
+                React, Node.js
+              </span>
             </div>
 
-            <div className="flex items-center gap-3">
+            <div className="flex items-start gap-3">
               <span className="text-navy font-bold">
                 <Image
                   src="/images/icon-mobile.svg"

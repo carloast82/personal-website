@@ -21,6 +21,7 @@ export default function MobileNav() {
 
   const navLinks = [
     { name: "Chi Sono", href: "#chi-sono" },
+    { name: "Come Lavoro", href: "#come-lavoro" },
     { name: "Esperienze", href: "#esperienze" },
     { name: "Competenze", href: "#competenze" },
     { name: "Portfolio", href: "#progetti" },
@@ -32,7 +33,7 @@ export default function MobileNav() {
       {/* Bottone Hamburger */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="relative z-50 p-2 flex flex-col gap-1.5 focus:outline-none"
+        className="relative z-50 p-2 mr-5 flex flex-col gap-1.5 focus:outline-none"
         aria-label="Toggle menu"
       >
         <span

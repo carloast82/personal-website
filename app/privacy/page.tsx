@@ -1,6 +1,20 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Privacy Policy | Carlo Astolfi",
+  description:
+    "Informativa sulla privacy e sul trattamento dei dati personali del sito di Carlo Astolfi.",
+
+  // 💡 CHICCA SEO: Impedisce a Google di mostrare i testi legali nei risultati di ricerca
+  robots: {
+    index: false,
+    follow: true,
+  },
+};
+
 export default function PrivacyPolicy() {
   return (
     <>
