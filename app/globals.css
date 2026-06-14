@@ -1,0 +1,199 @@
+@import "tailwindcss";
+
+body {
+  overflow-x: hidden;
+}
+
+@theme {
+  /* Sostituisci questi codici HEX con quelli esatti del tuo Figma */
+  --color-nero: #1a1a1a;
+  --color-senape: #ffde00;
+  --color-grigio-scuro: #4a5568;
+  --color-grigio-medio: #718096;
+  --color-grigio-chiaro: #e6e6e6;
+  --color-grigio-light: #fafbfb;
+  --color-navy: #2c5282;
+  --color-bianco: #ffffff;
+  --color-azzurro: #f0f4f8;
+
+  /*--bg-nero: var(--color-nero);
+  --bg-senape: var(--color-senape);
+  --bg-grigio-scuro: var(--color-grigio-scuro);
+  --bg-grigio-medio: var(--color-grigio-medio);
+  --bg-grigio-chiaro: var(--color-grigio-chiaro);
+  --bg-navy: var(--color-navy);
+  --bg-bianco: var(--color-bianco);
+  --bg-azzurro: var(--color-azzurro);
+
+  --text-nero: var(--color-nero);
+  --text-senape: var(--color-senape);
+  --text-grigio-scuro: var(--color-grigio-scuro);
+  --text-grigio-medio: var(--color-grigio-medio);
+  --text-grigio-chiaro: var(--color-grigio-chiaro);
+  --text-navy: var(--color-navy);
+  --text-bianco: var(--color-bianco);
+  --text-azzurro: var(--color-azzurro);*/
+
+  /* I tuoi tre font di Google */
+  --font-sans: var(--font-sans), ui-sans-serif, system-ui;
+  --font-serif: var(--font-serif), ui-serif, Georgia;
+  --font-mono: var(--font-mono), ui-monospace, SFMono-Regular;
+
+  --container-max-width: 1440px; /* Per mantenere il layout centrato e ordinato */
+}
+
+:root {
+  --background: var(--color-bianco);
+  --foreground: var(--color-grigio-scuro);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: var(--color-grigio-scuro);
+    --foreground: var(--color-grigio-chiaro);
+  }
+}
+
+body {
+  color: var(--color-grigio-scuro);
+  font-family: var(--font-sans);
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,f6f6f6+47,ededed+100;White+3D+%231 */
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 1) 30%,
+    rgba(246, 246, 246, 1) 67%,
+    rgba(237, 237, 237, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+/* Container globale per centrare i contenuti a 1440px */
+@utility container-site {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding-left: 0rem; /* px-6 su mobile (24px) */
+  padding-right: 0rem;
+
+  /* ✅ IL MEDIA QUERY VA DENTRO L'UTILITY */
+  @media (min-width: 768px) {
+    padding-left: 3rem; /* px-12 su desktop (48px) */
+    padding-right: 3rem;
+  }
+}
+
+h1 {
+  font-family: var(--font-serif);
+  font-weight: 700; /* Bold */
+
+  /* 📱 VALORI PER MOBILE (Adattati per schermi piccoli) */
+  font-size: 2.25rem; /* 36px */
+  line-height: 1.3; /* Un filo più compatto su mobile */
+  letter-spacing: -0.02em; /* -2% */
+}
+
+h1 {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: 2.25rem; /* 36px */
+}
+
+h2 {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: 1.5rem; /* 24px */
+  letter-spacing: -0.05em;
+}
+
+h3 {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: 1.125rem; /* 18px */
+  letter-spacing: -0.05em;
+}
+
+p {
+  font-family: var(--font-sans);
+  line-height: 1.8;
+}
+
+small {
+  font-family: var(--font-sans);
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.4;
+}
+
+code,
+.tag {
+  font-family: var(--font-mono);
+  font-size: 0.875rem; /* 14px */
+}
+
+/* --- VALORI PER DESKTOP (Da schermi grandi in su) --- */
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 3rem; /* 48px */
+    line-height: 1.5;
+    letter-spacing: -0.02em;
+  }
+
+  h2 {
+    font-size: 2rem; /* 32px */
+    line-height: 1.4;
+    letter-spacing: -0.05em;
+  }
+
+  h3 {
+    font-size: 1.25rem; /* 20px */
+    line-height: 1.4;
+    letter-spacing: -0.05em;
+  }
+}
+
+/* NAV */
+header nav a {
+  color: var(--color-grigio-scuro);
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  &:hover {
+    color: var(--color-nero);
+    text-decoration: underline;
+  }
+}
+h2.title-line {
+  &::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 2px;
+    background-color: var(--color-navy);
+    margin: 30px auto auto;
+  }
+}
+/* HERO */
+#hero {
+  background: var(--color-bianco);
+}
+@media (min-width: 1024px) {
+  #hero {
+    background: var(--color-bianco) url("/images/carlo-hero.webp") no-repeat
+      right center;
+    background-size: contain;
+  }
+}
+
+/* MOBILE NAV */
+#mobilenav_container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw !important;
+  height: 150vh !important;
+}
