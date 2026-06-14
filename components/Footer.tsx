@@ -45,7 +45,7 @@ export default function Footer() {
                 viewport={viewportConfig}
                 // Cambiato w-50 (che non esiste) in un valore esplicito w-[200px]
                 // Aggiunto relative per il corretto funzionamento di 'fill'
-                className="relative w-50 h-20"
+                className="relative w-50 h-20 m-auto md:ml-0"
               >
                 <Image
                   src="/images/logo-carloastolfi-white.webp"
@@ -57,7 +57,7 @@ export default function Footer() {
             </div>
 
             {/* Descrizione Professionale */}
-            <p className="font-sans text-xs text-white/50 leading-relaxed max-w-sm pt-2">
+            <p className="font-sans text-xs text-white/50 leading-relaxed max-w-sm pt-2 text-center md:text-left">
               <strong className="text-white/80 font-semibold">
                 Sviluppatore Web & Graphic Designer
               </strong>{" "}
@@ -67,7 +67,7 @@ export default function Footer() {
           </div>
 
           {/* COLONNA 2: NAVIGAZIONE INTERNA (4 Colonne su Desktop, divisa in 2 sub-colonne) */}
-          <div className="md:col-span-4 lg:col-span-4 space-y-4">
+          <div className="md:col-span-4 lg:col-span-4 space-y-4  text-center md:text-left">
             <h4 className="font-mono text-xs uppercase tracking-[0.2em] text-white/40">
               Esplora il sito
             </h4>
@@ -118,12 +118,12 @@ export default function Footer() {
           </div>
 
           {/* COLONNA 3: LINK ESTERNI / DOWNLOAD (3 Colonne su Desktop) */}
-          <div className="md:col-span-3 lg:col-span-4 space-y-4">
+          <div className="md:col-span-3 lg:col-span-4 space-y-4 text-center md:text-left">
             <h4 className="font-mono text-xs uppercase tracking-[0.2em] text-white/40">
               Risorse esterne
             </h4>
 
-            <div className="space-y-4 pt-2">
+            <div className="flex flex-col items-center md:items-start gap-4 pt-2">
               {/* Download CV */}
               <a
                 href="/cv_Astolfi_Carlo.pdf"

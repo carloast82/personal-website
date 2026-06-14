@@ -98,7 +98,7 @@ export default function Hero() {
               <span>
                 PHP, JS, HTML5, CSS/SCSS
                 <br />
-                React, Node.js
+                REACT, NODE.JS
               </span>
             </div>
 

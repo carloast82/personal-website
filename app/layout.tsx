@@ -1,6 +1,6 @@
+import "./globals.css";
 import type { Metadata } from "next";
 import { Inter, Playfair_Display, Courier_Prime } from "next/font/google"; // Importiamo i tuoi 3 font
-import "./globals.css";
 
 // 1. Configurazione di Inter (Sans-Serif per il Body)
 const fontSans = Inter({

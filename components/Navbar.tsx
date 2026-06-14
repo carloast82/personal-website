@@ -51,7 +51,7 @@ export default function Navbar() {
           custom={1}
           viewport={viewportConfig}
           href="/"
-          className="flex items-center gap-3 group"
+          className="flex items-center gap-3 group pl-5 md:pl-0"
         >
           <Image
             src="/images/logo-carloastolfi.webp"
