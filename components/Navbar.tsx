@@ -46,7 +46,7 @@ export default function Navbar() {
     { name: "Come Lavoro", href: "#come-lavoro", scrollto: "come-lavoro" },
     { name: "Esperienze", href: "#esperienze", scrollto: "esperienze" },
     { name: "Competenze", href: "#competenze", scrollto: "competenze" },
-    { name: "Portfolio Progetti", href: "#progetti", scrollto: "progetti" },
+    { name: "Portfolio Progetti", href: "#portfolio", scrollto: "portfolio" },
     { name: "Contatti", href: "#contatti", scrollto: "contatti" },
   ];
 
