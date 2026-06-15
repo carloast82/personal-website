@@ -67,7 +67,7 @@ export default function Philosophy() {
 
           {/* COLONNA DESTRA: TESTI & BLOCCHI */}
           <div className="lg:col-span-7 flex flex-col justify-center order-1 lg:order-2">
-            <div className="space-y-4 font-sans text-base text-grigio-scuro leading-relaxed mb-10">
+            <div className="space-y-4 font-sans text-base text-grigio-medio leading-relaxed mb-10">
               <motion.p variants={fadeInRight}>
                 Unisco le mie competenze di <strong>Graphic Designer</strong> a
                 quelle di <strong>Web Developer</strong>. Questo mi permette di
@@ -98,7 +98,7 @@ export default function Philosophy() {
 
               <motion.blockquote
                 variants={fadeInUp}
-                className="border-l-4 border-navy pl-5 my-8 italic text-grigio-scuro leading-relaxed"
+                className="border-l-4 border-navy pl-5 my-8 italic text-grigio-medio leading-relaxed"
               >
                 In oltre vent'anni di attività ho lavorato stabilmente come
                 consulente di riferimento sia per dinamiche piccole e medie
@@ -149,7 +149,7 @@ export default function Philosophy() {
                       height={40}
                     />
                   </div>
-                  <p className="font-sans text-xs text-grigio-scuro leading-relaxed max-w-xs">
+                  <p className="font-sans text-xs text-grigio-medio leading-relaxed max-w-xs">
                     <strong className="text-sm">{card.title}</strong>
                     <br />
                     {card.text}

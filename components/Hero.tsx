@@ -65,7 +65,7 @@ export default function Hero() {
 
           <motion.p
             variants={fadeInLeft}
-            className="text-lg text-grigio-scuro max-w-xl leading-relaxed mb-8 lg:max-w-125"
+            className="text-lg text-grigio-medio max-w-xl leading-relaxed mb-8 lg:max-w-125"
           >
             Sviluppo soluzioni web performanti e curo l'estetica visiva dei
             brand. Con oltre 15 anni di esperienza, unisco una solida
@@ -76,7 +76,7 @@ export default function Hero() {
           {/* GRIGLIA CONTATTI RAPIDI */}
           <motion.div
             variants={fadeInUp}
-            className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10 max-w-lg font-sans text-sm text-grigio-scuro"
+            className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10 max-w-lg font-sans text-sm text-grigio-medio"
           >
             <div className="flex items-start gap-3">
               <span className="text-navy font-bold">

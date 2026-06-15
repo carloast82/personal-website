@@ -158,7 +158,7 @@ export default function Philosophy() {
                   className="text-navy mb-6"
                 />
               </div>
-              <p className="font-sans text-xs text-grigio-scuro leading-relaxed max-w-xs">
+              <p className="font-sans text-xs text-grigio-medio leading-relaxed max-w-xs">
                 <strong>Sviluppo su Misura</strong>
                 <br />
                 Siti dinamici in PHP, WordPress, WooCommerce e soluzioni custom
@@ -181,7 +181,7 @@ export default function Philosophy() {
                   className="text-navy mb-6"
                 />
               </div>
-              <p className="font-sans text-xs text-grigio-scuro leading-relaxed max-w-xs">
+              <p className="font-sans text-xs text-grigio-medio leading-relaxed max-w-xs">
                 <strong>Graphic & ADV</strong>
                 <br />
                 Campagne pubblicitarie, cataloghi per la stampa e grafica
@@ -204,7 +204,7 @@ export default function Philosophy() {
                   className="text-navy mb-6"
                 />
               </div>
-              <p className="font-sans text-xs text-grigio-scuro leading-relaxed max-w-xs">
+              <p className="font-sans text-xs text-grigio-medio leading-relaxed max-w-xs">
                 <strong>AI & LLM Integration</strong>
                 <br />
                 Studio e sperimentazione attiva nell'uso dei modelli generativi

@@ -13,7 +13,7 @@ export default function Portfolio() {
           <h2 className="font-semibold text-grigio-scuro title-line">
             Portfolio Progetti
           </h2>
-          <p className="font-sans text-sm text-grigio-scuro mt-4 max-w-xl mx-auto">
+          <p className="font-sans text-sm text-grigio-medio mt-4 max-w-xl mx-auto">
             Clicca su ciascun progetto per visualizzarne i dettagli, la
             descrizione e le immagini addizionali di layout.
           </p>

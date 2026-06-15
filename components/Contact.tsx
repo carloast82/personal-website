@@ -72,7 +72,7 @@ export default function Contact() {
           <div className="lg:col-span-7 space-y-8 px-6 lg:px-0">
             <motion.div variants={bounceIn}>
               <h2 className="text-grigio-scuro mb-4">Mettiamoci in contatto</h2>
-              <p className="font-sans text-sm lg:text-base text-grigio-scuro leading-relaxed max-w-2xl">
+              <p className="font-sans text-sm lg:text-base text-grigio-medio leading-relaxed max-w-2xl">
                 Hai un'idea da sviluppare, un sito web da ottimizzare o hai
                 bisogno di una consulenza grafica d'impatto? Sono sempre aperto
                 a valutare nuove collaborazioni, progetti a lungo termine o
@@ -159,7 +159,7 @@ export default function Contact() {
                 </div>
 
                 <div className="border-t border-grigio-chiaro/40 pt-4">
-                  <p className="font-sans text-xs lg:text-sm text-grigio-scuro leading-relaxed">
+                  <p className="font-sans text-xs lg:text-sm text-grigio-medio leading-relaxed">
                     Opero principalmente tra le province di Ferrara e Bologna
                     per incontri di persona, ma ho sempre lavorato stabilmente
                     come consulente anche nelle zone di Modena e Vicenza. Sono

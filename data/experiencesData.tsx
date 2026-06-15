@@ -29,7 +29,7 @@ export const experiences: Experience[] = [
           Ideazione e impaginazione grafica di newsletter, banner per portali
           ufficiali e asset visivi per campagne social e advertising digitali.
         </blockquote>
-        <ul className="list-disc list-inside font-sans text-sm text-grigio-scuro leading-relaxed mb-10">
+        <ul className="list-disc list-inside font-sans text-sm text-grigio-medio leading-relaxed mb-10">
           <li>
             Realizzazioni grafiche layout e asset digitali per siti web, portali
             e campagne pubblicitarie
@@ -59,7 +59,7 @@ export const experiences: Experience[] = [
           Sviluppo siti web; collaborazione nella realizzazione e
           l'aggiornamento dei progetti web; ottimizzazione SEO dei siti web
         </blockquote>
-        <ul className="list-disc list-inside font-sans text-sm text-grigio-scuro leading-relaxed mb-10">
+        <ul className="list-disc list-inside font-sans text-sm text-grigio-medio leading-relaxed mb-10">
           <li>
             Realizzazioni grafiche layout e asset digitali per siti web, portali
             e campagne pubblicitarie
@@ -81,7 +81,7 @@ export const experiences: Experience[] = [
     company:
       "DSM Lab - Casalecchio (BO) agenzia di comunicazione multimediale / Lavoro in Sede",
     content: (
-      <ul className="list-disc list-inside font-sans text-sm text-grigio-scuro leading-relaxed mb-10">
+      <ul className="list-disc list-inside font-sans text-sm text-grigio-medio leading-relaxed mb-10">
         <li>Realizzazione grafiche per web desktop e mobile</li>
         <li>Sviluppo siti web desktop tablet e mobile</li>
       </ul>
@@ -93,7 +93,7 @@ export const experiences: Experience[] = [
     company:
       "ComunicÓ Advertising – Bologna (BO) studio grafico / Lavoro in Sede",
     content: (
-      <ul className="list-disc list-inside font-sans text-sm text-grigio-scuro leading-relaxed mb-10">
+      <ul className="list-disc list-inside font-sans text-sm text-grigio-medio leading-relaxed mb-10">
         <li>Realizzazioni grafiche web e per stampa in quadricromia</li>
         <li>Impaginazione di cataloghi e e flyer</li>
         <li>Creazione siti Web in HTML/CSS e Flash (ActionScript 2.0)</li>

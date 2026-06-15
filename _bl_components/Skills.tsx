@@ -28,7 +28,7 @@ export default function Skills() {
               />
               Sviluppo e Markup
             </h3>
-            <p className="font-sans text-xs text-grigio-scuro leading-relaxed max-w-xs">
+            <p className="font-sans text-xs text-grigio-medio leading-relaxed max-w-xs">
               Scrittura di codice solido, semantico ed efficiente per garantire
               elevate prestazioni delle piattaforme web.
             </p>
@@ -104,7 +104,7 @@ export default function Skills() {
               />
               Design e UX
             </h3>
-            <p className="font-sans text-xs text-grigio-scuro leading-relaxed max-w-xs">
+            <p className="font-sans text-xs text-grigio-medio leading-relaxed max-w-xs">
               Cura del dettaglio visivo, equilibrio tipografico, layout web
               avanzati e content design per l'ADV Social.
             </p>
@@ -168,7 +168,7 @@ export default function Skills() {
               />
               CMS e Marketing
             </h3>
-            <p className="font-sans text-xs text-grigio-scuro leading-relaxed max-w-xs">
+            <p className="font-sans text-xs text-grigio-medio leading-relaxed max-w-xs">
               Ottimizzazione e posizionamento sui motori di ricerca per
               convertire il traffico in clienti.
             </p>
