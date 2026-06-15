@@ -12,6 +12,25 @@ import {
 } from "@/components/utils/animations";
 
 export default function Hero() {
+  // Questa funzione intercetta il click e forza lo scroll fluido via software
+  const handleScroll = (
+    e: React.MouseEvent<HTMLAnchorElement>,
+    targetId: string,
+  ) => {
+    e.preventDefault(); // Blocca il "teletrasporto" di Next.js
+
+    const element = document.getElementById(targetId);
+    if (element) {
+      element.scrollIntoView({
+        behavior: "smooth",
+        block: "start", // Allinea la sezione in cima allo schermo
+      });
+
+      // Aggiorna l'URL del browser con l'ancora senza far saltare la pagina
+      window.history.pushState(null, "", `#${targetId}`);
+    }
+  };
+
   return (
     <section
       className="bg-bianco text-nero overflow-hidden border-b border-grigio-chiaro"
@@ -41,7 +60,7 @@ export default function Hero() {
             variants={fadeInRight}
             className="tracking-widest text-navy mt-2 mb-6"
           >
-            Web Developer & Graphic Designer
+            Web Developer / Graphic Designer
           </motion.h2>
 
           <motion.p
@@ -98,7 +117,7 @@ export default function Hero() {
               <span>
                 PHP, JS, HTML5, CSS/SCSS
                 <br />
-                REACT, NODE.JS
+                REACT, NEXT.JS, NODE.JS
               </span>
             </div>
 
@@ -120,12 +139,14 @@ export default function Hero() {
           <motion.div variants={fadeInUp} className="flex flex-wrap gap-4">
             <a
               href="#portfolio"
+              onClick={(e) => handleScroll(e, "portfolio")}
               className="font-serif text-xl font-bold bg-navy hover:bg-bianco text-bianco hover:text-navy border-navy border-2 px-8 py-3.5 rounded-lg transition-all duration-300 text-center min-w-40"
             >
               Guarda il mio Portfolio
             </a>
             <a
               href="#contatti"
+              onClick={(e) => handleScroll(e, "contatti")}
               className="font-serif text-xl font-bold bg-senape border-senape border-2 hover:bg-bianco text-nero hover:text-senape px-8 py-3.5 rounded-lg transition-all duration-300 text-center min-w-40"
             >
               Contattami

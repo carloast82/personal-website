@@ -164,7 +164,7 @@ export default function Contact() {
                     per incontri di persona, ma ho sempre lavorato stabilmente
                     come consulente anche nelle zone di Modena e Vicenza. Sono
                     pienamente disponibile per trasferte e attività operative
-                    dirette in queste aree (Automunito).
+                    dirette in queste aree.
                   </p>
                 </div>
               </motion.div>

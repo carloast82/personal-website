@@ -88,7 +88,7 @@ export default function Navbar() {
               key={link.name}
               href={link.href}
               onClick={(e) => handleScroll(e, link.scrollto)}
-              className="font-sans text-sm font-medium text-gray-600 hover:text-blue transition-colors py-2"
+              className="text-sm font-medium text-gray-600 hover:text-blue transition-colors py-2"
             >
               {link.name}
             </a>

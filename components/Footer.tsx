@@ -60,8 +60,8 @@ export default function Footer() {
             <p className="font-sans text-xs text-white/50 leading-relaxed max-w-sm pt-2 text-center md:text-left">
               <strong className="text-white/80 font-semibold">
                 Sviluppatore Web & Graphic Designer
-              </strong>{" "}
-              con oltre 20 anni di esperienza (dal 2004) nella progettazione e
+              </strong>
+              <br /> con oltre 20 anni di esperienza nella progettazione e
               programmazione di piattaforme digitali.
             </p>
           </div>

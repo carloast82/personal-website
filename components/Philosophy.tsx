@@ -122,19 +122,19 @@ export default function Philosophy() {
                   src: "/images/icon-code.svg",
                   alt: "Coding",
                   title: "Sviluppo su Misura",
-                  text: "Siti dinamici in PHP, WordPress, WooCommerce e soluzioni custom ottimizzate SEO.",
+                  text: "Siti dinamici in PHP, WordPress, WooCommerce e soluzioni custom ottimizzate SEO. In costante evoluzione ed espansione verso le moderne architetture in React e Next.js.",
                 },
                 {
                   src: "/images/icon-design.svg",
                   alt: "Design",
                   title: "Graphic & ADV",
-                  text: "Campagne pubblicitarie, cataloghi per la stampa e grafica editoriale coordinata.",
+                  text: "Progettazione di layout web, campagne Social ADV e materiale cartaceo, dai cataloghi per la stampa alla grafica editoriale coordinata.",
                 },
                 {
                   src: "/images/icon-ai.svg",
                   alt: "AI",
                   title: "AI & LLM Integration",
-                  text: "Studio e sperimentazione attiva nell'uso dei modelli generativi per ottimizzare codice e design.",
+                  text: "Studio, sperimentazione e integrazione di modelli generativi per ottimizzare la scrittura del codice, velocizzare i processi di design e sviluppare soluzioni web intelligenti e automatizzate.",
                 },
               ].map((card, idx) => (
                 <div
@@ -150,7 +150,7 @@ export default function Philosophy() {
                     />
                   </div>
                   <p className="font-sans text-xs text-grigio-scuro leading-relaxed max-w-xs">
-                    <strong>{card.title}</strong>
+                    <strong className="text-sm">{card.title}</strong>
                     <br />
                     {card.text}
                   </p>

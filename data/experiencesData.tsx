@@ -76,7 +76,7 @@ export const experiences: Experience[] = [
     ),
   },
   {
-    year: "2007 — 2018",
+    year: "2007 — 2008",
     title: "Sviluppatore web e grafico",
     company:
       "DSM Lab - Casalecchio (BO) agenzia di comunicazione multimediale / Lavoro in Sede",

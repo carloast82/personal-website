@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 
 export default function MobileNav() {
@@ -55,13 +56,13 @@ export default function MobileNav() {
         aria-label="Toggle menu"
       >
         <span
-          className={`block w-6 h-0.5 bg-navy transition-all duration-300 ${isOpen ? "rotate-45 translate-y-2" : ""}`}
+          className={`block w-6 h-0.5 bg-navy transition-all duration-300 ${isOpen ? "rotate-45 translate-y-2 bg-white" : ""}`}
         ></span>
         <span
           className={`block w-6 h-0.5 bg-navy transition-all duration-300 ${isOpen ? "opacity-0" : ""}`}
         ></span>
         <span
-          className={`block w-6 h-0.5 bg-navy transition-all duration-300 ${isOpen ? "-rotate-45 -translate-y-2" : ""}`}
+          className={`block w-6 h-0.5 bg-navy transition-all duration-300 ${isOpen ? "-rotate-45 -translate-y-2 bg-white" : ""}`}
         ></span>
       </button>
 
@@ -72,7 +73,7 @@ export default function MobileNav() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 z-40 flex flex-col items-center justify-start pt-50 gap-8 bg-white/90 backdrop-blur-lg overscroll-contain"
+            className="fixed inset-0 z-40 flex flex-col items-center justify-start pt-30 px-10 gap-4 bg-grigio-scuro/98  backdrop-blur-md overscroll-contain"
             id="mobilenav_container"
           >
             {navLinks.map((link) => (
@@ -98,11 +99,64 @@ export default function MobileNav() {
                     }
                   }
                 }}
-                className="text-2xl font-bold text-navy hover:text-senape transition-colors"
+                className="w-full text-center font-serif text-2xl font-medium text-white hover:text-grigio-chiaro transition-colors py-2"
+                // className="text-2xl font-bold text-navy hover:text-senape transition-colors"
               >
                 {link.name}
               </a>
             ))}
+
+            <div className="flex flex-col items-center md:items-start border-t border-bianco pt-8 mt-8 gap-4 pt-2 w-full">
+              {/* Download CV */}
+              <a
+                href="/cv_Astolfi_Carlo.pdf"
+                download
+                className="group flex items-center gap-3 font-sans text-sm text-white/70 hover:text-white transition-colors mb-4"
+              >
+                <div className="w-8 h-8 rounded-lg bg-none flex items-center justify-center group-hover:text-white transition-all shrink-0">
+                  <Image
+                    src="/images/download.webp"
+                    alt="Download CV"
+                    className="w-6 h-6 object-contain"
+                    width={24}
+                    height={24}
+                  />
+                </div>
+                <span>Curriculum Vitae PDF</span>
+              </a>
+
+              {/* Profilo LinkedIn */}
+              <a
+                href="https://www.linkedin.com/in/carloastolfi/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex items-center gap-3 font-sans text-sm text-white/70 hover:text-white transition-colors"
+              >
+                <div className="w-8 h-8 rounded-lg bg-none flex items-center justify-center text-white/60 group-hover:bg-white/10 group-hover:text-white transition-all shrink-0">
+                  <Image
+                    src="/images/Vector.webp"
+                    alt="LinkedIn"
+                    className="w-6 h-6 object-contain"
+                    width={24}
+                    height={24}
+                  />
+                </div>
+                <span>Il mio profilo LinkedIn</span>
+              </a>
+            </div>
+
+            <div className="border-t border-white pt-8 mt-8 flex flex-col w-full">
+              <p className="font-mono text-[12px] text-white tracking-wide text-center">
+                © 2026 Carlo Astolfi. Tutti i diritti riservati.
+                <br />
+                <Link
+                  href="/privacy"
+                  className="hover:text-white/60 transition-colors"
+                >
+                  Privacy Policy
+                </Link>
+              </p>
+            </div>
           </motion.div>
         )}
       </AnimatePresence>

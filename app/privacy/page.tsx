@@ -20,7 +20,7 @@ export default function PrivacyPolicy() {
     <>
       <Navbar />
 
-      <main className="max-w-max-width mx-auto px-0">
+      <main className="max-w-max-width mx-auto md:px-0 px-10">
         <section className="bg-bianco text-nero overflow-hidden border-b border-grigio-chiaro">
           <div className="container-site max-w-5xl pt-20 pb-20">
             {/* INTESTAZIONE PAGINA */}
