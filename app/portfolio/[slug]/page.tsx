@@ -53,9 +53,9 @@ export default async function Page({ params }: Props) {
   // Passiamo l'intero oggetto "progetto" come prop al file client
   return (
     <>
-      <main className="max-w-max-width mx-auto px-0 overflow-x-hidden w-full">
+      <main className="max-w-max-width mx-auto px-0 overflow-x-hidden w-full bg-white">
         <div className="w-full px-0 mx-0 mt-10">
-          <DettaglioProgettoClient progetto={progetto} />;
+          <DettaglioProgettoClient progetto={progetto} />
         </div>
       </main>
     </>

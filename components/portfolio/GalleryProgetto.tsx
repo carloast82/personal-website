@@ -2,10 +2,9 @@
 
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import { motion } from "framer-motion";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
-
+import { motion } from "framer-motion";
 import {
   containerVariants,
   revealVertical,
@@ -42,21 +41,17 @@ function ImmagineAnimata({
   spanClasses,
 }: {
   item: any;
-  indexImg: number;
+  indexImg: number; // Questo sarà l'indice globale
   spanClasses: string;
 }) {
-  const [effettoCasuale, setEffettoCasuale] =
-    useState<string>("revealVertical");
-
-  useEffect(() => {
-    const effettiDisponibili = [
-      "revealLeftToRight",
-      "revealVertical",
-      "revealRightToLeft",
-    ];
-    const indiceCasuale = Math.floor(Math.random() * effettiDisponibili.length);
-    setEffettoCasuale(effettiDisponibili[indiceCasuale]);
-  }, []);
+  const effettiDisponibili = [
+    "revealLeftToRight",
+    "revealVertical",
+    "revealRightToLeft",
+  ];
+  
+  // Seleziona l'effetto in modo deterministico basandosi sull'indice
+  const effetto = effettiDisponibili[indexImg % effettiDisponibili.length];
 
   return (
     <motion.div
@@ -65,9 +60,9 @@ function ImmagineAnimata({
       whileInView="visible"
       viewport={{ once: true, margin: "-100px" }}
       variants={
-        effettoCasuale === "revealLeftToRight"
+        effetto === "revealLeftToRight"
           ? revealLeftToRight
-          : effettoCasuale === "revealRightToLeft"
+          : effetto === "revealRightToLeft"
             ? revealRightToLeft
             : revealVertical
       }
@@ -152,13 +147,12 @@ export default function GalleryProgetto({
                   >
                     <ImmagineAnimata
                       item={item}
-                      indexImg={indexImg}
+                      indexImg={posizioneGlobale}
                       spanClasses="w-full h-full absolute inset-0"
                     />
-
                     <div className="absolute inset-0 bg-linear-to-t from-black/50 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6 z-10">
                       <span className="text-white font-mono text-xs uppercase tracking-wider">
-                        Progetto: {progetto.progetto}
+                        Progetto: {item.alt}
                       </span>
                     </div>
                   </div>
