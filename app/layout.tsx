@@ -1,6 +1,8 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter, Playfair_Display, Courier_Prime } from "next/font/google"; // Importiamo i tuoi 3 font
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 // 1. Configurazione di Inter (Sans-Serif per il Body)
 const fontSans = Inter({
@@ -40,7 +42,9 @@ export default function RootLayout({
       <body
         className={`${fontSans.variable} ${fontSerif.variable} ${fontMono.variable} antialiased`}
       >
+        <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

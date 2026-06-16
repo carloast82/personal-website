@@ -1,6 +1,3 @@
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
-
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -18,8 +15,6 @@ export const metadata: Metadata = {
 export default function PrivacyPolicy() {
   return (
     <>
-      <Navbar />
-
       <main className="max-w-max-width mx-auto md:px-0 px-10">
         <section className="bg-bianco text-nero overflow-hidden border-b border-grigio-chiaro">
           <div className="container-site max-w-5xl pt-20 pb-20">
@@ -131,8 +126,6 @@ export default function PrivacyPolicy() {
           </div>
         </section>
       </main>
-
-      <Footer />
     </>
   );
 }

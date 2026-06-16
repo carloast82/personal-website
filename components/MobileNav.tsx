@@ -106,7 +106,7 @@ export default function MobileNav() {
               </a>
             ))}
 
-            <div className="flex flex-col items-center md:items-start border-t border-bianco pt-8 mt-8 gap-4 pt-2 w-full">
+            <div className="flex flex-col items-center md:items-start border-t border-bianco pt-8 mt-8 gap-4 w-full">
               {/* Download CV */}
               <a
                 href="/cv_Astolfi_Carlo.pdf"

@@ -50,7 +50,7 @@ function Portfolio() {
                 return (React.createElement(framer_motion_1.motion.div, { key: "blocco-" + numeroBlocco, variants: animations_1.containerVariants, initial: "hidden", whileInView: "visible", viewport: viewportConfig, className: gridClass }, itemsInBlocco.map(function (item) {
                     // ⚡ MODIFICA QUI: Recuperiamo le classi intere dalle mappe statiche
                     var spanClasses = [
-                        "group relative block w-full h-full overflow-hidden rounded-2xl border border-grigio-chiaro/50 shadow-sm",
+                        "group relative block w-full h-full overflow-hidden rounded-2xl border border-grigio-chiaro/50 shadow-sm row-span-3",
                         item.smColSpan ? smColMap[item.smColSpan] : "",
                         mdColMap[item.mdColSpan] || "md:col-span-1",
                         mdRowMap[item.mdRowSpan] || "md:row-span-1",
@@ -59,7 +59,7 @@ function Portfolio() {
                         .join(" ");
                     var selectedVariant = animationVariants[item.variant];
                     return (React.createElement(framer_motion_1.motion.a, { key: item.id, href: "/portfolio/" + item.slug, variants: selectedVariant, className: spanClasses },
-                        React.createElement(image_1["default"], { src: "/images/portfolio/" + item.path, alt: item.progetto, fill: true, className: "object-cover transition-transform duration-500 group-hover:scale-105 group-hover:blur-xs" }),
+                        React.createElement(image_1["default"], { src: item.path, alt: item.progetto, fill: true, className: "object-cover transition-transform duration-500 group-hover:scale-105 group-hover:blur-xs" }),
                         React.createElement("div", { className: "absolute inset-0 bg-linear-to-t from-black/50 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6" },
                             React.createElement("span", { className: "text-white font-mono text-xs uppercase tracking-wider" },
                                 "Progetto: ",

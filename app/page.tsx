@@ -1,5 +1,3 @@
-import Image from "next/image";
-import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Philosophy from "@/components/Philosophy";
 import Experiences from "@/components/Experiences";
@@ -11,8 +9,6 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <>
-      <Navbar />
-
       {/* Il resto del sito (Contenuto finto per testare lo scroll sticky) */}
       <main className="max-w-max-width mx-auto px-0 overflow-x-hidden w-full">
         <Hero />
@@ -22,7 +18,6 @@ export default function Home() {
         <Portfolio />
         <Contact />
       </main>
-      <Footer />
     </>
   );
 }
