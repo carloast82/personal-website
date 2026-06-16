@@ -12,6 +12,28 @@ import {
   mobileViewport,
 } from "@/components/utils/animations";
 
+// ⚡ MAPPE STATICHE PER LE CLASSI INTERE (Infallibili per la produzione)
+const smColMap: Record<number, string> = {
+  1: "sm:col-span-1",
+  2: "sm:col-span-2",
+  3: "sm:col-span-3",
+  4: "sm:col-span-4",
+};
+
+const mdColMap: Record<number, string> = {
+  1: "md:col-span-1",
+  2: "md:col-span-2",
+  3: "md:col-span-3",
+  4: "md:col-span-4",
+};
+
+const mdRowMap: Record<number, string> = {
+  1: "md:row-span-1",
+  2: "md:row-span-2",
+  3: "md:row-span-3",
+  4: "md:row-span-4",
+};
+
 export default function Portfolio() {
   const gridClass =
     "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 auto-rows-[200px] sm:auto-rows-[220px] md:auto-rows-[250px]";
@@ -21,14 +43,12 @@ export default function Portfolio() {
       ? mobileViewport
       : desktopViewport;
 
-  // Mappa di associazione tra i tipi di stringa nel file dati e le varianti importate
   const animationVariants = {
     revealVertical,
     revealLeftToRight,
     revealRightToLeft,
   };
 
-  // Raggruppiamo dinamicamente gli elementi per blocco (da 1 a 4) ordinandoli per sequenza
   const blocchiArray = Array.from({ length: 4 }, (_, i) => {
     const bloccoNumero = i + 1;
     return portfolioItems
@@ -52,7 +72,6 @@ export default function Portfolio() {
         </div>
 
         <div className="flex flex-col gap-6">
-          {/* Cicliamo i 4 blocchi della griglia asimmetrica */}
           {blocchiArray.map((itemsInBlocco, index) => {
             const numeroBlocco = index + 1;
             return (
@@ -64,19 +83,17 @@ export default function Portfolio() {
                 viewport={viewportConfig}
                 className={gridClass}
               >
-                {/* Cicliamo i progetti appartenenti al blocco corrente */}
                 {itemsInBlocco.map((item: PortfolioItem) => {
-                  // Calcoliamo le classi dinamiche di span per il responsive
+                  // ⚡ MODIFICA QUI: Recuperiamo le classi intere dalle mappe statiche
                   const spanClasses = [
                     "group relative block w-full h-full overflow-hidden rounded-2xl border border-grigio-chiaro/50 shadow-sm",
-                    item.smColSpan ? `sm:col-span-${item.smColSpan}` : "",
-                    `md:col-span-${item.mdColSpan}`,
-                    `md:row-span-${item.mdRowSpan}`,
+                    item.smColSpan ? smColMap[item.smColSpan] : "",
+                    mdColMap[item.mdColSpan] || "md:col-span-1",
+                    mdRowMap[item.mdRowSpan] || "md:row-span-1",
                   ]
                     .filter(Boolean)
                     .join(" ");
 
-                  // Selezioniamo la variante corretta di animazione
                   const selectedVariant = animationVariants[item.variant];
 
                   return (

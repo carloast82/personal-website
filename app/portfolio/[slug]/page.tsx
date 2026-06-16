@@ -21,6 +21,28 @@ import {
   desktopViewport,
 } from "@/components/utils/animations";
 
+// ⚡ MAPPE STATICHE PER LE CLASSI INTERE (Infallibili per la produzione)
+const smColMap: Record<number, string> = {
+  1: "sm:col-span-1",
+  2: "sm:col-span-2",
+  3: "sm:col-span-3",
+  4: "sm:col-span-4",
+};
+
+const mdColMap: Record<number, string> = {
+  1: "md:col-span-1",
+  2: "md:col-span-2",
+  3: "md:col-span-3",
+  4: "md:col-span-4",
+};
+
+const mdRowMap: Record<number, string> = {
+  1: "md:row-span-1",
+  2: "md:row-span-2",
+  3: "md:row-span-3",
+  4: "md:row-span-4",
+};
+
 // 1. Crea un micro-componente per la singola immagine di dettaglio
 function ImmagineAnimata({
   item,
@@ -130,13 +152,6 @@ export default function DettaglioProgetto() {
   const gridClass =
     "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 auto-rows-[200px] sm:auto-rows-[220px] md:auto-rows-[250px]";
 
-  // Mappa di associazione tra i tipi di stringa nel file dati e le varianti importate
-  const animationVariants = {
-    revealVertical,
-    revealLeftToRight,
-    revealRightToLeft,
-  };
-
   // Raggruppiamo dinamicamente gli elementi per blocco (da 1 a 4) ordinandoli per sequenza
   const blocchiArray = Array.from({ length: 4 }, (_, i) => {
     const bloccoNumero = i + 1;
@@ -197,7 +212,6 @@ export default function DettaglioProgetto() {
                     className="inline-block text-grigio-medio font-mono text-[12px] uppercase tracking-wider mb-4 mr-2"
                   >
                     {cat}
-                    {/* Se l'indice corrente è minore dell'ultima posizione dell'array, metti lo slash */}
                     {index < arr.length - 1 ? " / " : ""}
                   </motion.span>
                 ))}
@@ -211,7 +225,6 @@ export default function DettaglioProgetto() {
 
               {/* Lista Metadati Tecnici */}
               <div className="space-y-4 text-[13px] border-t border-grigio-chiaro pt-6">
-                {/* Riga Cliente */}
                 <motion.div
                   variants={fadeInUp}
                   className="grid grid-cols-[100px_1fr] items-start gap-2"
@@ -224,7 +237,6 @@ export default function DettaglioProgetto() {
                   </span>
                 </motion.div>
 
-                {/* Riga Anno */}
                 <motion.div
                   variants={fadeInUp}
                   className="grid grid-cols-[100px_1fr] items-start gap-2"
@@ -237,7 +249,6 @@ export default function DettaglioProgetto() {
                   </span>
                 </motion.div>
 
-                {/* Riga Tipo */}
                 <motion.div
                   variants={fadeInUp}
                   className="grid grid-cols-[100px_1fr] items-start gap-2"
@@ -250,7 +261,6 @@ export default function DettaglioProgetto() {
                   </span>
                 </motion.div>
 
-                {/* Riga Attività */}
                 <motion.div
                   variants={fadeInUp}
                   className="grid grid-cols-[100px_1fr] items-start gap-2"
@@ -264,7 +274,6 @@ export default function DettaglioProgetto() {
                 </motion.div>
               </div>
 
-              {/* Testo Descrittivo */}
               <motion.div
                 variants={fadeInUp}
                 className="text-grigio-medio text-[14px] leading-relaxed space-y-4 whitespace-pre-line border-t border-grigio-chiaro pt-6 font-light"
@@ -272,7 +281,6 @@ export default function DettaglioProgetto() {
                 {progetto.descrizione}
               </motion.div>
 
-              {/* Badges Tecnologie / Strumenti */}
               <div className="border-t border-grigio-chiaro pt-6">
                 <div className="flex flex-wrap gap-2">
                   {progetto.tecnologie.map((tech, index) => (
@@ -297,7 +305,6 @@ export default function DettaglioProgetto() {
                 </a>
               </motion.div>
 
-              {/* Nota di Credito Finale */}
               {progetto.notaCrediti && (
                 <p className="text-[11px] font-sans italic text-grigio-medio leading-relaxed pt-6 border-t border-dashed border-grigio-chiaro">
                   {progetto.notaCrediti}
@@ -332,9 +339,7 @@ export default function DettaglioProgetto() {
           </div>
 
           {/* Gallery progetto */}
-
           <div className="flex flex-col gap-6" id="gallery">
-            {/* Cicliamo i 4 blocchi della griglia asimmetrica */}
             {blocchiArray.map((itemsInBlocco, index) => {
               const numeroBlocco = index + 1;
               return (
@@ -346,40 +351,32 @@ export default function DettaglioProgetto() {
                   viewport={viewportConfig}
                   className={gridClass}
                 >
-                  {/* Cicliamo le immagini appartenenti al blocco corrente */}
                   {itemsInBlocco.map((item: any, indexImg) => {
-                    // Calcoliamo le classi dinamiche di span per il responsive
+                    // ⚡ MODIFICA QUI: Recuperiamo le classi intere mappate staticamente
                     const spanClasses = [
                       "group relative block w-full h-full overflow-hidden rounded-2xl border border-grigio-chiaro/50 shadow-sm",
-                      item.smColSpan ? `sm:col-span-${item.smColSpan}` : "",
-                      `md:col-span-${item.mdColSpan}`,
-                      `md:row-span-${item.mdRowSpan}`,
+                      item.smColSpan ? smColMap[item.smColSpan] : "",
+                      mdColMap[item.mdColSpan] || "md:col-span-1",
+                      mdRowMap[item.mdRowSpan] || "md:row-span-1",
                     ]
                       .filter(Boolean)
                       .join(" ");
 
                     return (
-                      /* 1. Abbiamo tolto <motion.a> e messo un <a> normale. 
-                 Non serve che sia animato qui, l'animazione la fa il figlio!
-            */
                       <a
                         key={indexImg}
                         href={item.nomefile}
                         className={spanClasses}
                       >
-                        {/* 2. Il componente ora si prende carico di animare se stesso 
-                   senza generare errori sul server.
-              */}
                         <ImmagineAnimata
                           item={item}
                           indexImg={indexImg}
-                          spanClasses="w-full h-full absolute inset-0" // Lo facciamo aderire al tag <a> parent
+                          spanClasses="w-full h-full absolute inset-0"
                         />
 
-                        {/* Overlay con i testi del progetto */}
                         <div className="absolute inset-0 bg-linear-to-t from-black/50 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6 z-10">
                           <span className="text-white font-mono text-xs uppercase tracking-wider">
-                            Progetto: {item.progetto}
+                            Progetto: {progetto.progetto}
                           </span>
                         </div>
                       </a>

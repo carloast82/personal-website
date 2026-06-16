@@ -5,18 +5,35 @@ var framer_motion_1 = require("framer-motion");
 var image_1 = require("next/image");
 var portfolioData_1 = require("@/data/portfolioData");
 var animations_1 = require("@/components/utils/animations");
+// ⚡ MAPPE STATICHE PER LE CLASSI INTERE (Infallibili per la produzione)
+var smColMap = {
+    1: "sm:col-span-1",
+    2: "sm:col-span-2",
+    3: "sm:col-span-3",
+    4: "sm:col-span-4"
+};
+var mdColMap = {
+    1: "md:col-span-1",
+    2: "md:col-span-2",
+    3: "md:col-span-3",
+    4: "md:col-span-4"
+};
+var mdRowMap = {
+    1: "md:row-span-1",
+    2: "md:row-span-2",
+    3: "md:row-span-3",
+    4: "md:row-span-4"
+};
 function Portfolio() {
     var gridClass = "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 auto-rows-[200px] sm:auto-rows-[220px] md:auto-rows-[250px]";
     var viewportConfig = typeof window !== "undefined" && window.innerWidth < 768
         ? animations_1.mobileViewport
         : animations_1.desktopViewport;
-    // Mappa di associazione tra i tipi di stringa nel file dati e le varianti importate
     var animationVariants = {
         revealVertical: animations_1.revealVertical,
         revealLeftToRight: animations_1.revealLeftToRight,
         revealRightToLeft: animations_1.revealRightToLeft
     };
-    // Raggruppiamo dinamicamente gli elementi per blocco (da 1 a 4) ordinandoli per sequenza
     var blocchiArray = Array.from({ length: 4 }, function (_, i) {
         var bloccoNumero = i + 1;
         return portfolioData_1.portfolioItems
@@ -31,16 +48,15 @@ function Portfolio() {
             React.createElement("div", { className: "flex flex-col gap-6" }, blocchiArray.map(function (itemsInBlocco, index) {
                 var numeroBlocco = index + 1;
                 return (React.createElement(framer_motion_1.motion.div, { key: "blocco-" + numeroBlocco, variants: animations_1.containerVariants, initial: "hidden", whileInView: "visible", viewport: viewportConfig, className: gridClass }, itemsInBlocco.map(function (item) {
-                    // Calcoliamo le classi dinamiche di span per il responsive
+                    // ⚡ MODIFICA QUI: Recuperiamo le classi intere dalle mappe statiche
                     var spanClasses = [
                         "group relative block w-full h-full overflow-hidden rounded-2xl border border-grigio-chiaro/50 shadow-sm",
-                        item.smColSpan ? "sm:col-span-" + item.smColSpan : "",
-                        "md:col-span-" + item.mdColSpan,
-                        "md:row-span-" + item.mdRowSpan,
+                        item.smColSpan ? smColMap[item.smColSpan] : "",
+                        mdColMap[item.mdColSpan] || "md:col-span-1",
+                        mdRowMap[item.mdRowSpan] || "md:row-span-1",
                     ]
                         .filter(Boolean)
                         .join(" ");
-                    // Selezioniamo la variante corretta di animazione
                     var selectedVariant = animationVariants[item.variant];
                     return (React.createElement(framer_motion_1.motion.a, { key: item.id, href: "/portfolio/" + item.slug, variants: selectedVariant, className: spanClasses },
                         React.createElement(image_1["default"], { src: "/images/portfolio/" + item.path, alt: item.progetto, fill: true, className: "object-cover transition-transform duration-500 group-hover:scale-105 group-hover:blur-xs" }),
