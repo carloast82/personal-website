@@ -4,6 +4,7 @@ import Image from "next/image";
 import MobileNav from "./MobileNav";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { motion, Variants } from "framer-motion";
 import {
   bounceIn,
@@ -40,6 +41,11 @@ export default function Navbar() {
     typeof window !== "undefined" && window.innerWidth < 768
       ? mobileViewport
       : desktopViewport;
+
+  const pathname = usePathname();
+
+  // Capiamo se l'utente si trova attualmente nella Home Page
+  const isHomePage = pathname === "/";
 
   const navLinks = [
     { name: "Chi Sono", href: "#chi-sono", scrollto: "chi-sono" },
@@ -83,16 +89,36 @@ export default function Navbar() {
 
         {/* MENU DI NAVIGAZIONE (Centrale/Destra) */}
         <nav className="hidden md:flex items-center gap-6 lg:gap-8">
-          {navLinks.map((link) => (
+          {/* {navLinks.map((link, index) => (
             <a
               key={link.name}
-              href={link.href}
+              href={hrefValue}
               onClick={(e) => handleScroll(e, link.scrollto)}
               className="text-sm font-medium text-gray-600 hover:text-blue transition-colors py-2"
             >
               {link.name}
             </a>
-          ))}
+          ))} */}
+
+          {navLinks.map((link, index) => {
+            // CONDIZIONE MAGICA:
+            // Se siamo nella Home, il link sarà "#portfolio".
+            // Se siamo fuori dalla Home, il link diventerà "/#portfolio".
+            const hrefValue = isHomePage ? link.href : `/${link.href}`;
+
+            return (
+              <a
+                key={link.name}
+                href={hrefValue}
+                onClick={
+                  isHomePage ? (e) => handleScroll(e, link.scrollto) : undefined
+                }
+                className="text-sm font-medium text-gray-600 hover:text-blue transition-colors py-2"
+              >
+                {link.name}
+              </a>
+            );
+          })}
         </nav>
 
         {/* BOTTONE CALL TO ACTION (Scrica il mio CV) */}

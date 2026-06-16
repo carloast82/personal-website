@@ -15,7 +15,7 @@ function Philosophy() {
                 React.createElement("h2", { className: "font-semibold text-grigio-scuro title-line" }, "Come Lavoro")),
             React.createElement(framer_motion_1.motion.div, { className: "col-span-full grid grid-cols-1 lg:grid-cols-12 gap-8 items-start w-full", variants: animations_1.containerVariants, initial: "hidden", whileInView: "visible", viewport: viewportConfig },
                 React.createElement(framer_motion_1.motion.div, { className: "lg:col-span-5 w-full h-full aspect-3/4 max-w-md mx-auto lg:max-w-none order-2 lg:order-1", variants: animations_1.revealVertical },
-                    React.createElement("div", { className: "relative w-full h-full rounded-2xl overflow-hidden shadow-sm" },
+                    React.createElement("div", { className: "relative w-full h-full rounded-2xl overflow-hidden" },
                         React.createElement(image_1["default"], { src: "/images/carlo-philosophy.webp", alt: "Carlo Astolfi - Ritratto Professionale", fill: true, className: "object-cover", sizes: "(max-width: 768px) 100vw, 33vw", priority: true }))),
                 React.createElement("div", { className: "lg:col-span-7 flex flex-col justify-center order-1 lg:order-2" },
                     React.createElement("div", { className: "space-y-4 font-sans text-base text-grigio-medio leading-relaxed mb-10" },

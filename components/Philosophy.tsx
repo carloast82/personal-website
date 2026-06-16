@@ -53,7 +53,7 @@ export default function Philosophy() {
             className="lg:col-span-5 w-full h-full aspect-3/4 max-w-md mx-auto lg:max-w-none order-2 lg:order-1"
             variants={revealVertical}
           >
-            <div className="relative w-full h-full rounded-2xl overflow-hidden shadow-sm">
+            <div className="relative w-full h-full rounded-2xl overflow-hidden">
               <Image
                 src="/images/carlo-philosophy.webp"
                 alt="Carlo Astolfi - Ritratto Professionale"
