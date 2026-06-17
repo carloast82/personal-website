@@ -89,7 +89,7 @@ export default function GalleryProgetto({
               {itemsInBlocco.map((item: any, indexImg: number) => {
                 const spanClasses = [
                   "group relative block w-full h-full overflow-hidden rounded-2xl border border-grigio-chiaro cursor-pointer",
-                  item.smColSpan ? smColMap[item.smColSpan] : "row-span-2",
+                  item.smColSpan ? smColMap[item.smColSpan] : "row-span-3",
                   mdColMap[item.mdColSpan] || "md:col-span-1",
                   mdRowMap[item.mdRowSpan] || "md:row-span-1",
                 ]

@@ -62,7 +62,7 @@ export const portfolioItems: PortfolioItem[] = [
     immaginiDettaglio: [
       {
         path: "/images/portfolio/carlo-astolfi-cv/hero.webp",
-        alt: "Carlo Astolfi CV / 2026",
+        alt: "Carlo Astolfi CV",
         blocco: 1,
         sequenza: 1,
         mdRowSpan: 3,
@@ -70,7 +70,7 @@ export const portfolioItems: PortfolioItem[] = [
       },
       {
         path: "/images/portfolio/carlo-astolfi-cv/portfolio.webp",
-        alt: "Carlo Astolfi CV / 2026",
+        alt: "Carlo Astolfi CV",
         blocco: 1,
         sequenza: 1,
         mdRowSpan: 3,
@@ -78,7 +78,7 @@ export const portfolioItems: PortfolioItem[] = [
       },
       {
         path: "/images/portfolio/carlo-astolfi-cv/error-404.webp",
-        alt: "Carlo Astolfi CV / 2026",
+        alt: "Carlo Astolfi CV",
         blocco: 1,
         sequenza: 1,
         mdRowSpan: 3,
@@ -86,7 +86,7 @@ export const portfolioItems: PortfolioItem[] = [
       },
       {
         path: "/images/portfolio/carlo-astolfi-cv/contact.webp",
-        alt: "Carlo Astolfi CV / 2026",
+        alt: "Carlo Astolfi CV",
         blocco: 1,
         sequenza: 1,
         mdRowSpan: 3,
@@ -95,7 +95,7 @@ export const portfolioItems: PortfolioItem[] = [
 
       {
         path: "/images/portfolio/carlo-astolfi-cv/portfolio-dettaglio.webp",
-        alt: "Carlo Astolfi CV / 2026",
+        alt: "Carlo Astolfi CV",
         blocco: 1,
         sequenza: 1,
         mdRowSpan: 3,
@@ -142,7 +142,7 @@ export const portfolioItems: PortfolioItem[] = [
     immaginiDettaglio: [
       {
         path: "/images/portfolio/ariostea/01_homepage.webp",
-        alt: "Ariostea / 2017",
+        alt: "Ariostea",
         blocco: 1,
         sequenza: 1,
         mdRowSpan: 3,
@@ -150,7 +150,7 @@ export const portfolioItems: PortfolioItem[] = [
       },
       {
         path: "/images/portfolio/ariostea/01_homepage-2.webp",
-        alt: "Ariostea / 2017",
+        alt: "Ariostea",
         blocco: 1,
         sequenza: 1,
         mdRowSpan: 3,
@@ -158,7 +158,7 @@ export const portfolioItems: PortfolioItem[] = [
       },
       {
         path: "/images/portfolio/ariostea/02_ultra.webp",
-        alt: "Ariostea / 2017",
+        alt: "Ariostea",
         blocco: 1,
         sequenza: 1,
         mdRowSpan: 3,
@@ -166,7 +166,7 @@ export const portfolioItems: PortfolioItem[] = [
       },
       {
         path: "/images/portfolio/ariostea/07_application-design.webp",
-        alt: "Ariostea / 2017",
+        alt: "Ariostea",
         blocco: 1,
         sequenza: 1,
         mdRowSpan: 4,
@@ -174,7 +174,7 @@ export const portfolioItems: PortfolioItem[] = [
       },
       {
         path: "/images/portfolio/ariostea/03_ultra-marmi.webp",
-        alt: "Ariostea / 2017",
+        alt: "Ariostea",
         blocco: 1,
         sequenza: 1,
         mdRowSpan: 3,
@@ -182,7 +182,7 @@ export const portfolioItems: PortfolioItem[] = [
       },
       {
         path: "/images/portfolio/ariostea/04_ultra-marmi-statuario-altissimo.webp",
-        alt: "Ariostea / 2017",
+        alt: "Ariostea",
         blocco: 1,
         sequenza: 1,
         mdRowSpan: 3,
@@ -191,7 +191,7 @@ export const portfolioItems: PortfolioItem[] = [
 
       {
         path: "/images/portfolio/ariostea/08_3_referenze-dettaglio.webp",
-        alt: "Ariostea / 2017",
+        alt: "Ariostea",
         blocco: 1,
         sequenza: 1,
         mdRowSpan: 2,
@@ -224,64 +224,64 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
       "Concept grafico realizzato come web developer e web designer in Pagus Media S.r.l",
     immaginiDettaglio: [
       {
-        path: "/images/portfolio/iris-fmg/1_Home.webp",
-        alt: "Iris FMG / 2021",
+        path: "/images/portfolio/iris-fmg/1_home.webp",
+        alt: "Iris FMG",
         blocco: 1,
         sequenza: 1,
         mdRowSpan: 4,
         mdColSpan: 1,
       },
       {
-        path: "/images/portfolio/iris-fmg/2.1_Prodotto Dettaglio – 2.webp",
-        alt: "Iris FMG / 2021",
+        path: "/images/portfolio/iris-fmg/2-1_prodotto-dettaglio-2.webp",
+        alt: "Iris FMG",
         blocco: 1,
         sequenza: 2,
         mdRowSpan: 4,
         mdColSpan: 2,
       },
       {
-        path: "/images/portfolio/iris-fmg/2.0_Collezione.webp",
-        alt: "Iris FMG / 2021",
+        path: "/images/portfolio/iris-fmg/2-0_collezione.webp",
+        alt: "Iris FMG",
         blocco: 1,
         sequenza: 3,
         mdRowSpan: 3,
         mdColSpan: 1,
       },
       {
-        path: "/images/portfolio/iris-fmg/2.0_Collezione – PALLADIO.webp",
-        alt: "Iris FMG / 2021",
+        path: "/images/portfolio/iris-fmg/2-0_collezione-palladio.webp",
+        alt: "Iris FMG",
         blocco: 1,
         sequenza: 4,
         mdRowSpan: 1,
         mdColSpan: 1,
       },
       {
-        path: "/images/portfolio/iris-fmg/2.1_Prodotto Dettaglio – 3.webp",
-        alt: "Iris FMG / 2021",
+        path: "/images/portfolio/iris-fmg/2-1_prodotto-dettaglio-3.webp",
+        alt: "Iris FMG",
         blocco: 2,
         sequenza: 5,
         mdRowSpan: 4,
         mdColSpan: 2,
       },
       {
-        path: "/images/portfolio/iris-fmg/4.1_DYS.webp",
-        alt: "Iris FMG / 2021",
+        path: "/images/portfolio/iris-fmg/4-1_dys.webp",
+        alt: "Iris FMG",
         blocco: 2,
         sequenza: 6,
         mdRowSpan: 2,
         mdColSpan: 2,
       },
       {
-        path: "/images/portfolio/iris-fmg/3.0_Macro Collezione ACTIVE.webp",
-        alt: "Iris FMG / 2021",
+        path: "/images/portfolio/iris-fmg/3-0_macro-collezione-active.webp",
+        alt: "Iris FMG",
         blocco: 2,
         sequenza: 7,
         mdRowSpan: 2,
         mdColSpan: 1,
       },
       {
-        path: "/images/portfolio/iris-fmg/3.2Prodotto Dettaglio – ACTIVE.webp",
-        alt: "Iris FMG / 2021",
+        path: "/images/portfolio/iris-fmg/3-2prodotto-dettaglio-active.webp",
+        alt: "Iris FMG",
         blocco: 2,
         sequenza: 8,
         mdRowSpan: 2,
@@ -391,7 +391,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
       "Concept grafico realizzato come web developer e web designer in Pagus Media S.r.l",
     immaginiDettaglio: [
       {
-        path: "/images/portfolio/ferrari/Newsletter-template.webp",
+        path: "/images/portfolio/ferrari/newsletter-template.webp",
         alt: "Ferrari",
         blocco: 1,
         sequenza: 1,
@@ -399,7 +399,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 1,
       },
       {
-        path: "/images/portfolio/ferrari/Wallpaper-1366x768-2.webp",
+        path: "/images/portfolio/ferrari/wallpaper-1366x768.webp",
         alt: "Ferrari",
         blocco: 1,
         sequenza: 1,
@@ -407,7 +407,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 2,
       },
       {
-        path: "/images/portfolio/ferrari/Wallpaper-1366x768.webp",
+        path: "/images/portfolio/ferrari/wallpaper-1366x768-2.webp",
         alt: "Ferrari",
         blocco: 1,
         sequenza: 1,
@@ -415,7 +415,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 1,
       },
       {
-        path: "/images/portfolio/ferrari/F1-MOBILE&GAME.webp",
+        path: "/images/portfolio/ferrari/f1-mobile&game.webp",
         alt: "Ferrari",
         blocco: 2,
         sequenza: 1,
@@ -423,7 +423,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 2,
       },
       {
-        path: "/images/portfolio/ferrari/Banner-News.webp",
+        path: "/images/portfolio/ferrari/banner-news.webp",
         alt: "Ferrari",
         blocco: 2,
         sequenza: 1,
@@ -431,7 +431,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 2,
       },
       {
-        path: "/images/portfolio/ferrari/Banner-Post-Facebook.webp",
+        path: "/images/portfolio/ferrari/banner-post-facebook.webp",
         alt: "Ferrari",
         blocco: 2,
         sequenza: 1,
@@ -439,7 +439,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 2,
       },
       {
-        path: "/images/portfolio/ferrari/Banner-Post-Facebook__.webp",
+        path: "/images/portfolio/ferrari/banner-post-facebook_2.webp",
         alt: "Ferrari",
         blocco: 2,
         sequenza: 1,
@@ -447,7 +447,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 2,
       },
       {
-        path: "/images/portfolio/ferrari/Banner-Post-Facebook_3.webp",
+        path: "/images/portfolio/ferrari/banner-post-facebook_3.webp",
         alt: "Ferrari",
         blocco: 2,
         sequenza: 1,
@@ -455,7 +455,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 2,
       },
       {
-        path: "/images/portfolio/ferrari/CoverGate_1470x670.webp",
+        path: "/images/portfolio/ferrari/covergate_1470x670.webp",
         alt: "Ferrari",
         blocco: 2,
         sequenza: 1,
@@ -552,7 +552,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
       "Sito web realizzato come web developer e web designer in Pagus Media S.r.l",
     immaginiDettaglio: [
       {
-        path: "/images/portfolio/bkey-consulting/home_bkey_OK.webp",
+        path: "/images/portfolio/bkey-consulting/home_bkey_ok.webp",
         alt: "Bkey Consulting",
         blocco: 1,
         sequenza: 1,
@@ -560,7 +560,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 1,
       },
       {
-        path: "/images/portfolio/bkey-consulting/www.bkeyconsulting.it_competenze_fattori-di-successo.webp",
+        path: "/images/portfolio/bkey-consulting/www-bkeyconsulting-it_competenze_fattori-di-successo.webp",
         alt: "Bkey Consulting",
         blocco: 1,
         sequenza: 2,
@@ -568,7 +568,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 2,
       },
       {
-        path: "/images/portfolio/bkey-consulting/www.bkeyconsulting.it_chi-siamo_i-nostri-valori.webp",
+        path: "/images/portfolio/bkey-consulting/www-bkeyconsulting-it_chi-siamo_i-nostri-valori.webp",
         alt: "Bkey Consulting",
         blocco: 1,
         sequenza: 3,
@@ -584,7 +584,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 2,
       },
       {
-        path: "/images/portfolio/bkey-consulting/www.bkeyconsulting.it_news.webp",
+        path: "/images/portfolio/bkey-consulting/www-bkeyconsulting-it_news.webp",
         alt: "Bkey Consulting",
         blocco: 2,
         sequenza: 1,

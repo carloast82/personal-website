@@ -90,7 +90,7 @@ export default function Portfolio() {
                 {itemsInBlocco.map((item: PortfolioItem) => {
                   // ⚡ MODIFICA QUI: Recuperiamo le classi intere dalle mappe statiche
                   const spanClasses = [
-                    "group relative block w-full h-full overflow-hidden rounded-2xl border border-grigio-chiaro  row-span-3",
+                    "group relative block w-full h-full overflow-hidden rounded-2xl border border-grigio-chiaro row-span-3",
                     item.smColSpan ? smColMap[item.smColSpan] : "",
                     mdColMap[item.mdColSpan] || "md:col-span-1",
                     mdRowMap[item.mdRowSpan] || "md:row-span-1",
