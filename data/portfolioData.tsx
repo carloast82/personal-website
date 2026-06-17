@@ -415,7 +415,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 1,
       },
       {
-        path: "/images/portfolio/ferrari/f1-mobile&game.webp",
+        path: "/images/portfolio/ferrari/f1-mobile-and-game.webp",
         alt: "Ferrari",
         blocco: 2,
         sequenza: 1,
