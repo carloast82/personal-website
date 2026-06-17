@@ -124,6 +124,7 @@ export default function GalleryProgetto({
                       fill
                       className="object-cover transition-transform duration-500 group-hover:scale-105 group-hover:blur-xs"
                       sizes="(max-width: 768px) 100vw, 800px"
+                      priority
                     />
                     <div className="absolute inset-0 bg-linear-to-t from-black/50 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6 z-10">
                       <span className="text-white font-mono text-xs uppercase tracking-wider">
