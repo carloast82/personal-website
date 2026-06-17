@@ -391,7 +391,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
       "Concept grafico realizzato come web developer e web designer in Pagus Media S.r.l",
     immaginiDettaglio: [
       {
-        path: "/images/portfolio/ferrari/Newsletter-template.webp ",
+        path: "/images/portfolio/ferrari/Newsletter-template.webp",
         alt: "Ferrari",
         blocco: 1,
         sequenza: 1,
@@ -399,7 +399,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 1,
       },
       {
-        path: "/images/portfolio/ferrari/Wallpaper-1366x768-2.webp ",
+        path: "/images/portfolio/ferrari/Wallpaper-1366x768-2.webp",
         alt: "Ferrari",
         blocco: 1,
         sequenza: 1,
@@ -407,7 +407,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 2,
       },
       {
-        path: "/images/portfolio/ferrari/Wallpaper-1366x768.webp ",
+        path: "/images/portfolio/ferrari/Wallpaper-1366x768.webp",
         alt: "Ferrari",
         blocco: 1,
         sequenza: 1,
@@ -415,7 +415,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 1,
       },
       {
-        path: "/images/portfolio/ferrari/F1-MOBILE&GAME.webp ",
+        path: "/images/portfolio/ferrari/F1-MOBILE&GAME.webp",
         alt: "Ferrari",
         blocco: 2,
         sequenza: 1,
@@ -423,7 +423,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 2,
       },
       {
-        path: "/images/portfolio/ferrari/Banner-News.webp ",
+        path: "/images/portfolio/ferrari/Banner-News.webp",
         alt: "Ferrari",
         blocco: 2,
         sequenza: 1,
@@ -431,7 +431,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 2,
       },
       {
-        path: "/images/portfolio/ferrari/Banner-Post-Facebook.webp ",
+        path: "/images/portfolio/ferrari/Banner-Post-Facebook.webp",
         alt: "Ferrari",
         blocco: 2,
         sequenza: 1,
@@ -439,7 +439,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 2,
       },
       {
-        path: "/images/portfolio/ferrari/Banner-Post-Facebook__.webp ",
+        path: "/images/portfolio/ferrari/Banner-Post-Facebook__.webp",
         alt: "Ferrari",
         blocco: 2,
         sequenza: 1,
@@ -447,7 +447,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 2,
       },
       {
-        path: "/images/portfolio/ferrari/Banner-Post-Facebook_3.webp ",
+        path: "/images/portfolio/ferrari/Banner-Post-Facebook_3.webp",
         alt: "Ferrari",
         blocco: 2,
         sequenza: 1,
@@ -487,7 +487,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
       "Sito web realizzato come web developer e web designer in Pagus Media S.r.l",
     immaginiDettaglio: [
       {
-        path: "/images/portfolio/bottega-darte/www.irisceramica.it_bottega-d-arte.webp ",
+        path: "/images/portfolio/bottega-darte/www.irisceramica.it_bottega-d-arte.webp",
         alt: "Bottega d'Arte",
         blocco: 1,
         sequenza: 1,
@@ -495,7 +495,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 1,
       },
       {
-        path: "/images/portfolio/bottega-darte/www.irisceramica.it_bottega-d-arte_citta-di-faenza.webp ",
+        path: "/images/portfolio/bottega-darte/www.irisceramica.it_bottega-d-arte_citta-di-faenza.webp",
         alt: "Bottega d'Arte",
         blocco: 1,
         sequenza: 1,
@@ -503,7 +503,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 2,
       },
       {
-        path: "/images/portfolio/bottega-darte/bottega-d-arte-1.webp ",
+        path: "/images/portfolio/bottega-darte/bottega-d-arte-1.webp",
         alt: "Bottega d'Arte",
         blocco: 1,
         sequenza: 1,
@@ -511,7 +511,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 1,
       },
       {
-        path: "/images/portfolio/bottega-darte/bottega-d-arte-2.webp ",
+        path: "/images/portfolio/bottega-darte/bottega-d-arte-2.webp",
         alt: "Bottega d'Arte",
         blocco: 2,
         sequenza: 1,
@@ -552,7 +552,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
       "Sito web realizzato come web developer e web designer in Pagus Media S.r.l",
     immaginiDettaglio: [
       {
-        path: "/images/portfolio/bkey-consulting/home_bkey_OK.webp ",
+        path: "/images/portfolio/bkey-consulting/home_bkey_OK.webp",
         alt: "Bkey Consulting",
         blocco: 1,
         sequenza: 1,
@@ -560,7 +560,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 1,
       },
       {
-        path: "/images/portfolio/bkey-consulting/www.bkeyconsulting.it_competenze_fattori-di-successo.webp ",
+        path: "/images/portfolio/bkey-consulting/www.bkeyconsulting.it_competenze_fattori-di-successo.webp",
         alt: "Bkey Consulting",
         blocco: 1,
         sequenza: 2,
@@ -576,7 +576,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 1,
       },
       {
-        path: "/images/portfolio/bkey-consulting/valori_teamworker.webp ",
+        path: "/images/portfolio/bkey-consulting/valori_teamworker.webp",
         alt: "Bkey Consulting",
         blocco: 2,
         sequenza: 3,
@@ -584,7 +584,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 2,
       },
       {
-        path: "/images/portfolio/bkey-consulting/www.bkeyconsulting.it_news.webp ",
+        path: "/images/portfolio/bkey-consulting/www.bkeyconsulting.it_news.webp",
         alt: "Bkey Consulting",
         blocco: 2,
         sequenza: 1,
@@ -618,7 +618,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
       "Sito web realizzato come web developer e web designer in Pagus Media S.r.l",
     immaginiDettaglio: [
       {
-        path: "/images/portfolio/enrico-capra/www-enricocapra-com.webp ",
+        path: "/images/portfolio/enrico-capra/www-enricocapra-com.webp",
         alt: "Enrico Capra",
         blocco: 1,
         sequenza: 1,
@@ -626,7 +626,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 1,
       },
       {
-        path: "/images/portfolio/enrico-capra/www-enricocapra-com_collezioni.webp ",
+        path: "/images/portfolio/enrico-capra/www-enricocapra-com_collezioni.webp",
         alt: "Enrico Capra",
         blocco: 1,
         sequenza: 1,
@@ -634,7 +634,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 2,
       },
       {
-        path: "/images/portfolio/enrico-capra/www-enricocapra-com_azienda.webp ",
+        path: "/images/portfolio/enrico-capra/www-enricocapra-com_azienda.webp",
         alt: "Enrico Capra",
         blocco: 1,
         sequenza: 1,
@@ -642,7 +642,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 1,
       },
       {
-        path: "/images/portfolio/enrico-capra/www-enricocapra-com_ispirazione.webp ",
+        path: "/images/portfolio/enrico-capra/www-enricocapra-com_ispirazione.webp",
         alt: "Enrico Capra",
         blocco: 2,
         sequenza: 1,
