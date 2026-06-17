@@ -618,7 +618,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
       "Sito web realizzato come web developer e web designer in Pagus Media S.r.l",
     immaginiDettaglio: [
       {
-        path: "/images/portfolio/enrico-capra/www.enricocapra.com.webp ",
+        path: "/images/portfolio/enrico-capra/www-enricocapra-com.webp ",
         alt: "Enrico Capra",
         blocco: 1,
         sequenza: 1,
@@ -626,7 +626,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 1,
       },
       {
-        path: "/images/portfolio/enrico-capra/www.enricocapra.com_collezioni.webp ",
+        path: "/images/portfolio/enrico-capra/www-enricocapra-com_collezioni.webp ",
         alt: "Enrico Capra",
         blocco: 1,
         sequenza: 1,
@@ -634,7 +634,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 2,
       },
       {
-        path: "/images/portfolio/enrico-capra/www.enricocapra.com_azienda.webp ",
+        path: "/images/portfolio/enrico-capra/www-enricocapra-com_azienda.webp ",
         alt: "Enrico Capra",
         blocco: 1,
         sequenza: 1,
@@ -642,7 +642,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 1,
       },
       {
-        path: "/images/portfolio/enrico-capra/www.enricocapra.com_ispirazione.webp ",
+        path: "/images/portfolio/enrico-capra/www-enricocapra-com_ispirazione.webp ",
         alt: "Enrico Capra",
         blocco: 2,
         sequenza: 1,
@@ -650,7 +650,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 2,
       },
       {
-        path: "/images/portfolio/enrico-capra/www.enricocapra.com_contatti.webp",
+        path: "/images/portfolio/enrico-capra/www-enricocapra-com_contatti.webp",
         alt: "Enrico Capra",
         blocco: 2,
         sequenza: 1,

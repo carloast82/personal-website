@@ -111,9 +111,9 @@ export default function Portfolio() {
                         src={item.path}
                         alt={item.progetto}
                         fill
-                        className="object-cover transition-transform duration-500 group-hover:scale-105 group-hover:blur-xs"
+                        className="object-cover transition-transform duration-500 md:group-hover:scale-105 md:group-hover:blur-xs"
                       />
-                      <div className="absolute inset-0 bg-linear-to-t from-black/50 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+                      <div className="absolute inset-0 bg-linear-to-t from-black/50 via-black/10 to-transparent opacity-0 md:group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
                         <span className="text-white font-mono text-xs uppercase tracking-wider">
                           Progetto: {item.progetto}
                         </span>
