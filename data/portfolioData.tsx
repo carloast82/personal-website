@@ -503,7 +503,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 2,
       },
       {
-        path: "/images/portfolio/bottega-darte/bittegra-d-arte-1.webp ",
+        path: "/images/portfolio/bottega-darte/bottega-d-arte-1.webp ",
         alt: "Bottega d'Arte",
         blocco: 1,
         sequenza: 1,
@@ -511,7 +511,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 1,
       },
       {
-        path: "/images/portfolio/bottega-darte/bittegra-d-arte-2.webp ",
+        path: "/images/portfolio/bottega-darte/bottega-d-arte-2.webp ",
         alt: "Bottega d'Arte",
         blocco: 2,
         sequenza: 1,
@@ -519,7 +519,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 2,
       },
       {
-        path: "/images/portfolio/bottega-darte/bittegra-d-arte-3.webp",
+        path: "/images/portfolio/bottega-darte/bottega-d-arte-3.webp",
         alt: "Bottega d'Arte",
         blocco: 2,
         sequenza: 1,

@@ -34,51 +34,6 @@ const mdRowMap: Record<number, string> = {
   4: "md:row-span-4",
 };
 
-// Micro-componente per la singola immagine animata
-function ImmagineAnimata({
-  item,
-  indexImg,
-  spanClasses,
-}: {
-  item: any;
-  indexImg: number; // Questo sarà l'indice globale
-  spanClasses: string;
-}) {
-  const effettiDisponibili = [
-    "revealLeftToRight",
-    "revealVertical",
-    "revealRightToLeft",
-  ];
-  
-  // Seleziona l'effetto in modo deterministico basandosi sull'indice
-  const effetto = effettiDisponibili[indexImg % effettiDisponibili.length];
-
-  return (
-    <motion.div
-      key={indexImg}
-      initial="hidden"
-      whileInView="visible"
-      viewport={{ once: true, margin: "-100px" }}
-      variants={
-        effetto === "revealLeftToRight"
-          ? revealLeftToRight
-          : effetto === "revealRightToLeft"
-            ? revealRightToLeft
-            : revealVertical
-      }
-      className={spanClasses}
-    >
-      <Image
-        src={item.path}
-        alt={item.alt || "Immagine"}
-        fill
-        className="object-cover transition-transform duration-500 group-hover:scale-105 group-hover:blur-xs"
-        sizes="(max-width: 768px) 100vw, 800px"
-      />
-    </motion.div>
-  );
-}
-
 interface GalleryProgettoProps {
   progetto: any;
   viewportConfig: any;
@@ -111,6 +66,12 @@ export default function GalleryProgetto({
       alt: item.alt,
     }));
 
+  const effettiDisponibili = [
+    "revealLeftToRight",
+    "revealVertical",
+    "revealRightToLeft",
+  ];
+
   return (
     <>
       <div className="flex flex-col gap-6 px-6 md:px-10" id="gallery">
@@ -127,8 +88,8 @@ export default function GalleryProgetto({
             >
               {itemsInBlocco.map((item: any, indexImg: number) => {
                 const spanClasses = [
-                  "group relative block w-full h-full overflow-hidden rounded-2xl border border-grigio-chiaro/50 shadow-sm cursor-pointer",
-                  item.smColSpan ? smColMap[item.smColSpan] : "row-span-3",
+                  "group relative block w-full h-full overflow-hidden rounded-2xl border border-grigio-chiaro cursor-pointer",
+                  item.smColSpan ? smColMap[item.smColSpan] : "row-span-2",
                   mdColMap[item.mdColSpan] || "md:col-span-1",
                   mdRowMap[item.mdRowSpan] || "md:row-span-1",
                 ]
@@ -139,23 +100,37 @@ export default function GalleryProgetto({
                   (img: any) => img.src === item.path,
                 );
 
+                const effetto =
+                  effettiDisponibili[
+                    posizioneGlobale % effettiDisponibili.length
+                  ];
+                const selectedVariant =
+                  effetto === "revealLeftToRight"
+                    ? revealLeftToRight
+                    : effetto === "revealRightToLeft"
+                      ? revealRightToLeft
+                      : revealVertical;
+
                 return (
-                  <div
+                  <motion.div
                     key={indexImg}
                     onClick={() => setIndex(posizioneGlobale)}
                     className={spanClasses}
+                    variants={selectedVariant}
                   >
-                    <ImmagineAnimata
-                      item={item}
-                      indexImg={posizioneGlobale}
-                      spanClasses="w-full h-full absolute inset-0"
+                    <Image
+                      src={item.path}
+                      alt={item.alt || "Immagine"}
+                      fill
+                      className="object-cover transition-transform duration-500 group-hover:scale-105 group-hover:blur-xs"
+                      sizes="(max-width: 768px) 100vw, 800px"
                     />
                     <div className="absolute inset-0 bg-linear-to-t from-black/50 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6 z-10">
                       <span className="text-white font-mono text-xs uppercase tracking-wider">
                         Progetto: {item.alt}
                       </span>
                     </div>
-                  </div>
+                  </motion.div>
                 );
               })}
             </motion.div>

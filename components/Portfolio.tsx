@@ -105,7 +105,6 @@ export default function Portfolio() {
                       key={item.id}
                       href={`/portfolio/${item.slug}`}
                       variants={selectedVariant}
-                      prefetch={false}
                       className={spanClasses}
                     >
                       <Image
