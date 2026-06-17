@@ -38,13 +38,14 @@ const BackToTopButton = () => {
       initial={{ opacity: 0, scale: 0.8 }}
       animate={{ opacity: isVisible ? 1 : 0, scale: isVisible ? 1 : 0.8 }}
       transition={{ duration: 0.4 }}
-      className="fixed bottom-16 right-5 z-50 cursor-pointer"
+      className="fixed bottom-16 right-5 z-50"
     >
       {isVisible && (
         <motion.button
           whileHover={jumpAnimation}
           onClick={scrollToTop}
           aria-label="Back to top"
+          className="cursor-pointer"
         >
           <ChevronUpCircleIcon
             size={40}
