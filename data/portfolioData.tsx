@@ -224,7 +224,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
       "Concept grafico realizzato come web developer e web designer in Pagus Media S.r.l",
     immaginiDettaglio: [
       {
-        path: "/images/portfolio/iris-fmg/1_home.webp",
+        path: "/images/portfolio/iris-fmg/home.webp",
         alt: "Iris FMG",
         blocco: 1,
         sequenza: 1,
@@ -391,7 +391,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
       "Concept grafico realizzato come web developer e web designer in Pagus Media S.r.l",
     immaginiDettaglio: [
       {
-        path: "/images/portfolio/ferrari/newsletter-template.webp",
+        path: "/images/portfolio/ferrari/01-ferrari.webp",
         alt: "Ferrari",
         blocco: 1,
         sequenza: 1,
@@ -399,7 +399,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 1,
       },
       {
-        path: "/images/portfolio/ferrari/wallpaper-1366x768.webp",
+        path: "/images/portfolio/ferrari/02-ferrari.webp",
         alt: "Ferrari",
         blocco: 1,
         sequenza: 1,
@@ -407,7 +407,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 2,
       },
       {
-        path: "/images/portfolio/ferrari/wallpaper-1366x768-2.webp",
+        path: "/images/portfolio/ferrari/03-ferrari.webp",
         alt: "Ferrari",
         blocco: 1,
         sequenza: 1,
@@ -415,7 +415,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 1,
       },
       {
-        path: "/images/portfolio/ferrari/f1-mobile-and-game.webp",
+        path: "/images/portfolio/ferrari/04-ferrari.webp",
         alt: "Ferrari",
         blocco: 2,
         sequenza: 1,
@@ -423,7 +423,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 2,
       },
       {
-        path: "/images/portfolio/ferrari/banner-news.webp",
+        path: "/images/portfolio/ferrari/05-ferrari.webp",
         alt: "Ferrari",
         blocco: 2,
         sequenza: 1,
@@ -431,7 +431,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 2,
       },
       {
-        path: "/images/portfolio/ferrari/banner-post-facebook.webp",
+        path: "/images/portfolio/ferrari/06-ferrari.webp",
         alt: "Ferrari",
         blocco: 2,
         sequenza: 1,
@@ -439,7 +439,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 2,
       },
       {
-        path: "/images/portfolio/ferrari/banner-post-facebook_2.webp",
+        path: "/images/portfolio/ferrari/07-ferrari.webp",
         alt: "Ferrari",
         blocco: 2,
         sequenza: 1,
@@ -447,7 +447,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 2,
       },
       {
-        path: "/images/portfolio/ferrari/banner-post-facebook_3.webp",
+        path: "/images/portfolio/ferrari/08-ferrari.webp",
         alt: "Ferrari",
         blocco: 2,
         sequenza: 1,
@@ -455,7 +455,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 2,
       },
       {
-        path: "/images/portfolio/ferrari/covergate_1470x670.webp",
+        path: "/images/portfolio/ferrari/09-ferrari.webp",
         alt: "Ferrari",
         blocco: 2,
         sequenza: 1,
