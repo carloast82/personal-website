@@ -115,18 +115,19 @@ export default function GalleryProgetto({
                   <motion.div
                     key={indexImg}
                     onClick={() => setIndex(posizioneGlobale)}
-                    className={spanClasses}
+                    className={`${spanClasses} transform-gpu isolate`} // 👈 1. FORZA il motore grafico dello smartphone a non nascondere il contenuto
                     variants={selectedVariant}
                   >
                     <Image
                       src={item.path}
                       alt={item.alt || "Immagine"}
                       fill
-                      className="object-cover transition-transform duration-500 group-hover:scale-105 group-hover:blur-xs"
+                      // 👈 2. Spostati gli effetti hover solo su schermi medi/grandi (md:), aggiunto z-0
+                      className="object-cover z-0 transition-transform duration-500 md:group-hover:scale-105 md:group-hover:blur-xs"
                       sizes="(max-width: 768px) 100vw, 800px"
                       priority
                     />
-                    <div className="absolute inset-0 bg-linear-to-t from-black/50 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6 z-10">
+                    <div className="absolute inset-0 bg-linear-to-t from-black/50 via-black/10 to-transparent opacity-0 md:group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6 z-10">
                       <span className="text-white font-mono text-xs uppercase tracking-wider">
                         Progetto: {item.alt}
                       </span>
