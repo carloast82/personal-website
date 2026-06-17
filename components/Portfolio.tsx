@@ -1,6 +1,10 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
+
+const MotionLink = motion(Link);
+
 import Image from "next/image";
 import { portfolioItems, PortfolioItem } from "@/data/portfolioData";
 import {
@@ -97,10 +101,11 @@ export default function Portfolio() {
                   const selectedVariant = animationVariants[item.variant];
 
                   return (
-                    <motion.a
+                    <MotionLink
                       key={item.id}
                       href={`/portfolio/${item.slug}`}
                       variants={selectedVariant}
+                      prefetch={false}
                       className={spanClasses}
                     >
                       <Image
@@ -114,7 +119,7 @@ export default function Portfolio() {
                           Progetto: {item.progetto}
                         </span>
                       </div>
-                    </motion.a>
+                    </MotionLink>
                   );
                 })}
               </motion.div>
