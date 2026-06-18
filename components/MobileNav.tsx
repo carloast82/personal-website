@@ -1,5 +1,6 @@
 "use client";
 
+import { usePathname, useRouter } from "next/navigation";
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -7,6 +8,9 @@ import { motion, AnimatePresence } from "framer-motion";
 
 export default function MobileNav() {
   const [isOpen, setIsOpen] = useState(false);
+
+  const pathname = usePathname();
+  const router = useRouter();
 
   // Blocca lo scroll della pagina quando il menu è aperto
   useEffect(() => {
@@ -76,35 +80,46 @@ export default function MobileNav() {
             className="fixed inset-0 z-40 flex flex-col items-center justify-start pt-30 px-10 gap-4 bg-grigio-scuro/98  backdrop-blur-md overscroll-contain"
             id="mobilenav_container"
           >
-            {navLinks.map((link) => (
-              <a
-                key={link.name}
-                href={link.href}
-                onClick={(e) => {
-                  // 1. Chiude il menu mobile
-                  setIsOpen(false);
+            {navLinks.map((link) => {
+              // Calcoliamo l'URL corretto: se siamo in una pagina interna e il link è un'ancora,
+              // lo facciamo puntare alla Home (es: /#chi-sono)
+              const isAnchor = link.href.startsWith("#");
+              const computedHref =
+                isAnchor && pathname !== "/" ? `/${link.href}` : link.href;
 
-                  // 2. Gestisce lo scroll fluido se è un'ancora interna
-                  if (link.href.startsWith("#")) {
-                    e.preventDefault(); // Blocca il salto istantaneo
-                    const targetId = link.href.replace("#", "");
-                    const element = document.getElementById(targetId);
+              return (
+                <a
+                  key={link.name}
+                  href={computedHref} // 👈 Usa l'URL ricalcolato
+                  onClick={(e) => {
+                    // 1. Chiude sempre il menu mobile
+                    setIsOpen(false);
 
-                    if (element) {
-                      element.scrollIntoView({
-                        behavior: "smooth",
-                        block: "start",
-                      });
-                      window.history.pushState(null, "", link.href);
+                    // 2. Gestisce lo scroll fluido SOLO se siamo effettivamente in Home Page
+                    if (isAnchor) {
+                      if (pathname === "/") {
+                        e.preventDefault(); // Blocca il salto istantaneo solo se siamo in Home
+                        const targetId = link.href.replace("#", "");
+                        const element = document.getElementById(targetId);
+
+                        if (element) {
+                          element.scrollIntoView({
+                            behavior: "smooth",
+                            block: "start",
+                          });
+                          window.history.pushState(null, "", link.href);
+                        }
+                      }
+                      // Se pathname !== "/", NON blocchiamo il comportamento (e.preventDefault non scatta):
+                      // il browser cambierà pagina tornando alla Home Page all'ancora corretta.
                     }
-                  }
-                }}
-                className="w-full text-center font-serif text-2xl font-medium text-white hover:text-grigio-chiaro transition-colors py-2"
-                // className="text-2xl font-bold text-navy hover:text-senape transition-colors"
-              >
-                {link.name}
-              </a>
-            ))}
+                  }}
+                  className="w-full text-center font-serif text-2xl font-medium text-white hover:text-grigio-chiaro transition-colors py-2"
+                >
+                  {link.name}
+                </a>
+              );
+            })}
 
             <div className="flex flex-col items-center md:items-start border-t border-bianco pt-8 mt-8 gap-4 w-full">
               {/* Download CV */}

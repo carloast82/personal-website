@@ -1,3 +1,5 @@
+import { data } from "framer-motion/client";
+
 export interface ImmagineDettaglio {
   thumbPath: string;
   bigPath: string;
@@ -145,8 +147,7 @@ export const portfolioItems: PortfolioItem[] = [
       "PHP",
       "HTML5",
       "SCSS",
-      "Javascript",
-      "MySql",
+      "Bootstrap",
     ],
     notaCrediti:
       "Sito web realizzato come web developer e web designer in Pagus Media S.r.l",
@@ -338,54 +339,72 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
     notaCrediti:
       "Sito web realizzato come web developer e web designer in Pagus Media S.r.l",
     immaginiDettaglio: [
-      /* {
-        path: "/images/portfolio/fondazione-irisceramicagroup/01-fondazione.webp",
+      {
+        thumbPath:
+          "/images/portfolio/fondazione-irisceramica-group/thumb/01-fondazione.webp",
+        bigPath:
+          "/images/portfolio/fondazione-irisceramica-group/big/01-fondazione.webp",
         alt: "Fondazione Iris Ceramica Group",
         blocco: 1,
         sequenza: 1,
-        mdRowSpan: 4,
-        mdColSpan: 1,
+        mdRowSpan: 2,
+        mdColSpan: 2,
       },
       {
-        path: "/images/portfolio/fondazione-irisceramicagroup/02-fondazione.webp",
+        thumbPath:
+          "/images/portfolio/fondazione-irisceramica-group/thumb/02-fondazione.webp",
+        bigPath:
+          "/images/portfolio/fondazione-irisceramica-group/big/02-fondazione.webp",
         alt: "Fondazione Iris Ceramica Group",
         blocco: 1,
-        sequenza: 1,
+        sequenza: 2,
         mdRowSpan: 4,
         mdColSpan: 2,
       },
       {
-        path: "/images/portfolio/fondazione-irisceramicagroup/03-fondazione.webp",
+        thumbPath:
+          "/images/portfolio/fondazione-irisceramica-group/thumb/03-fondazione.webp",
+        bigPath:
+          "/images/portfolio/fondazione-irisceramica-group/big/03-fondazione.webp",
         alt: "Fondazione Iris Ceramica Group",
         blocco: 1,
-        sequenza: 1,
+        sequenza: 3,
         mdRowSpan: 2,
         mdColSpan: 1,
       },
       {
-        path: "/images/portfolio/fondazione-irisceramicagroup/04-fondazione.webp",
+        thumbPath:
+          "/images/portfolio/fondazione-irisceramica-group/thumb/04-fondazione.webp",
+        bigPath:
+          "/images/portfolio/fondazione-irisceramica-group/big/04-fondazione.webp",
         alt: "Fondazione Iris Ceramica Group",
         blocco: 1,
-        sequenza: 1,
+        sequenza: 4,
         mdRowSpan: 2,
         mdColSpan: 1,
       },
       {
-        path: "/images/portfolio/fondazione-irisceramicagroup/05-fondazione.webp",
+        thumbPath:
+          "/images/portfolio/fondazione-irisceramica-group/thumb/05-fondazione.webp",
+        bigPath:
+          "/images/portfolio/fondazione-irisceramica-group/big/05-fondazione.webp",
         alt: "Fondazione Iris Ceramica Group",
         blocco: 2,
         sequenza: 1,
         mdRowSpan: 3,
-        mdColSpan: 1,
+        mdColSpan: 2,
       },
       {
-        path: "/images/portfolio/fondazione-irisceramicagroup/06-fondazione.webp",
+        thumbPath:
+          "/images/portfolio/fondazione-irisceramica-group/thumb/06-fondazione.webp",
+        bigPath:
+          "/images/portfolio/fondazione-irisceramica-group/big/06-fondazione.webp",
         alt: "Fondazione Iris Ceramica Group",
         blocco: 2,
-        sequenza: 1,
-        mdRowSpan: 4,
+        sequenza: 2,
+        mdRowSpan: 2,
         mdColSpan: 2,
-      }, */
+      },
     ],
   },
   {
@@ -416,40 +435,54 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
     notaCrediti:
       "Concept grafico realizzato come web developer e web designer in Pagus Media S.r.l",
     immaginiDettaglio: [
-      /*  {
-        path: "/images/portfolio/ferrari/01-ferrari.webp",
+      {
+        thumbPath: "/images/portfolio/ferrari/thumb/01-ferrari.webp",
+        bigPath: "/images/portfolio/ferrari/big/01-ferrari.webp",
         alt: "Ferrari",
         blocco: 1,
-        sequenza: 1,
-        mdRowSpan: 3,
-        mdColSpan: 1,
-      },
-      {
-        path: "/images/portfolio/ferrari/02-ferrari.webp",
-        alt: "Ferrari",
-        blocco: 1,
-        sequenza: 1,
-        mdRowSpan: 3,
-        mdColSpan: 2,
-      },
-      {
-        path: "/images/portfolio/ferrari/03-ferrari.webp",
-        alt: "Ferrari",
-        blocco: 1,
-        sequenza: 1,
-        mdRowSpan: 3,
-        mdColSpan: 1,
-      },
-      {
-        path: "/images/portfolio/ferrari/04-ferrari.webp",
-        alt: "Ferrari",
-        blocco: 2,
         sequenza: 1,
         mdRowSpan: 4,
-        mdColSpan: 2,
+        mdColSpan: 1,
       },
       {
-        path: "/images/portfolio/ferrari/05-ferrari.webp",
+        thumbPath: "/images/portfolio/ferrari/thumb/02-ferrari.webp",
+        bigPath: "/images/portfolio/ferrari/big/02-ferrari.webp",
+        alt: "Ferrari",
+        blocco: 1,
+        sequenza: 1,
+        mdRowSpan: 2,
+        mdColSpan: 3,
+      },
+      {
+        thumbPath: "/images/portfolio/ferrari/thumb/03-ferrari.webp",
+        bigPath: "/images/portfolio/ferrari/big/03-ferrari.webp",
+        alt: "Ferrari",
+        blocco: 1,
+        sequenza: 1,
+        mdRowSpan: 2,
+        mdColSpan: 3,
+      },
+      {
+        thumbPath: "/images/portfolio/ferrari/thumb/04-ferrari.webp",
+        bigPath: "/images/portfolio/ferrari/big/04-ferrari.webp",
+        alt: "Ferrari",
+        blocco: 2,
+        sequenza: 1,
+        mdRowSpan: 3,
+        mdColSpan: 1,
+      },
+      {
+        thumbPath: "/images/portfolio/ferrari/thumb/05-ferrari.webp",
+        bigPath: "/images/portfolio/ferrari/big/05-ferrari.webp",
+        alt: "Ferrari",
+        blocco: 2,
+        sequenza: 1,
+        mdRowSpan: 1,
+        mdColSpan: 1,
+      },
+      {
+        thumbPath: "/images/portfolio/ferrari/thumb/06-ferrari.webp",
+        bigPath: "/images/portfolio/ferrari/big/06-ferrari.webp",
         alt: "Ferrari",
         blocco: 2,
         sequenza: 1,
@@ -457,37 +490,32 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 2,
       },
       {
-        path: "/images/portfolio/ferrari/06-ferrari.webp",
+        thumbPath: "/images/portfolio/ferrari/thumb/07-ferrari.webp",
+        bigPath: "/images/portfolio/ferrari/big/07-ferrari.webp",
         alt: "Ferrari",
         blocco: 2,
         sequenza: 1,
-        mdRowSpan: 2,
-        mdColSpan: 2,
+        mdRowSpan: 1,
+        mdColSpan: 1,
       },
       {
-        path: "/images/portfolio/ferrari/07-ferrari.webp",
+        thumbPath: "/images/portfolio/ferrari/thumb/08-ferrari.webp",
+        bigPath: "/images/portfolio/ferrari/big/08-ferrari.webp",
         alt: "Ferrari",
         blocco: 2,
         sequenza: 1,
-        mdRowSpan: 2,
-        mdColSpan: 2,
+        mdRowSpan: 1,
+        mdColSpan: 1,
       },
       {
-        path: "/images/portfolio/ferrari/08-ferrari.webp",
+        thumbPath: "/images/portfolio/ferrari/thumb/09-ferrari.webp",
+        bigPath: "/images/portfolio/ferrari/big/09-ferrari.webp",
         alt: "Ferrari",
         blocco: 2,
         sequenza: 1,
-        mdRowSpan: 2,
+        mdRowSpan: 1,
         mdColSpan: 2,
       },
-      {
-        path: "/images/portfolio/ferrari/09-ferrari.webp",
-        alt: "Ferrari",
-        blocco: 2,
-        sequenza: 1,
-        mdRowSpan: 2,
-        mdColSpan: 4,
-      }, */
     ],
   },
   {
@@ -508,12 +536,14 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
     descrizione: `Ho curato la progettazione e lo sviluppo di una pagina web dedicata al lancio di una nuova collezione speciale di Iris Ceramica. 
       Il lavoro è partito dalla definizione della brand identity e del web design su Photoshop, con l'obiettivo di valorizzare l'estetica artigianale del prodotto. 
       Sul fronte tecnico, ho implementato la pagina in HTML, CSS e PHP, curando lo sviluppo dei visual e ottimizzando il layout affinché l'esperienza d'uso fosse fluida, curata nei dettagli e reattiva sia su desktop che su mobile.`,
-    tecnologie: ["Photoshop", "CSS", "PHP", "HTML"],
+    tecnologie: ["Photoshop", "CSS", "PHP", "HTML", "Bootstrap"],
     notaCrediti:
       "Sito web realizzato come web developer e web designer in Pagus Media S.r.l",
     immaginiDettaglio: [
-      /*  {
-        path: "/images/portfolio/bottega-darte/01-bottega-darte.webp",
+      {
+        thumbPath:
+          "/images/portfolio/bottega-darte/thumb/01-bottega-darte.webp",
+        bigPath: "/images/portfolio/bottega-darte/big/01-bottega-darte.webp",
         alt: "Bottega d'Arte",
         blocco: 1,
         sequenza: 1,
@@ -521,7 +551,9 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 1,
       },
       {
-        path: "/images/portfolio/bottega-darte/02-bottega-darte.webp",
+        thumbPath:
+          "/images/portfolio/bottega-darte/thumb/02-bottega-darte.webp",
+        bigPath: "/images/portfolio/bottega-darte/big/02-bottega-darte.webp",
         alt: "Bottega d'Arte",
         blocco: 1,
         sequenza: 1,
@@ -529,7 +561,9 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 2,
       },
       {
-        path: "/images/portfolio/bottega-darte/03-bottega-darte.webp",
+        thumbPath:
+          "/images/portfolio/bottega-darte/thumb/03-bottega-darte.webp",
+        bigPath: "/images/portfolio/bottega-darte/big/03-bottega-darte.webp",
         alt: "Bottega d'Arte",
         blocco: 1,
         sequenza: 1,
@@ -537,7 +571,9 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 1,
       },
       {
-        path: "/images/portfolio/bottega-darte/04-bottega-darte.webp",
+        thumbPath:
+          "/images/portfolio/bottega-darte/thumb/04-bottega-darte.webp",
+        bigPath: "/images/portfolio/bottega-darte/big/04-bottega-darte.webp",
         alt: "Bottega d'Arte",
         blocco: 2,
         sequenza: 1,
@@ -545,13 +581,15 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 2,
       },
       {
-        path: "/images/portfolio/bottega-darte/05-bottega-darte.webp",
+        thumbPath:
+          "/images/portfolio/bottega-darte/thumb/05-bottega-darte.webp",
+        bigPath: "/images/portfolio/bottega-darte/big/05-bottega-darte.webp",
         alt: "Bottega d'Arte",
         blocco: 2,
         sequenza: 1,
         mdRowSpan: 2,
         mdColSpan: 1,
-      }, */
+      },
     ],
   },
   {
@@ -573,50 +611,60 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
     descrizione: `Per questo progetto aziendale mi sono occupato dell'intero sviluppo tecnico, traducendo fedelmente il design fornito in template statici (HTML/CSS3/JavaScript/jQuery) e convertendoli successivamente in codice dinamico. 
       Ho sviluppato da zero un sistema di backend gestionale custom in PHP e MySQL, collegandolo al sito per consentire una gestione flessibile dei contenuti aziendali. 
       L'architettura del codice è stata strutturata per garantire un layout leggero, una perfetta leggibilità dei testi e la massima efficacia delle call-to-action.`,
-    tecnologie: ["PHP", "JavaScript", "HTML", "CSS3", "jQuery", "MySQL"],
+    tecnologie: ["PHP", "jQuery", "HTML", "CSS3", "Bootstrap"],
     notaCrediti:
       "Sito web realizzato come web developer e web designer in Pagus Media S.r.l",
     immaginiDettaglio: [
-      /* {
-        path: "/images/portfolio/bkey-consulting/01-bkeyconsulting.webp",
+      {
+        thumbPath:
+          "/images/portfolio/bkey-consulting/thumb/01-bkeyconsulting.webp",
+        bigPath: "/images/portfolio/bkey-consulting/big/01-bkeyconsulting.webp",
         alt: "Bkey Consulting",
         blocco: 1,
         sequenza: 1,
-        mdRowSpan: 4,
-        mdColSpan: 1,
+        mdRowSpan: 3,
+        mdColSpan: 2,
       },
       {
-        path: "/images/portfolio/bkey-consulting/02-bkeyconsulting.webp",
+        thumbPath:
+          "/images/portfolio/bkey-consulting/thumb/02-bkeyconsulting.webp",
+        bigPath: "/images/portfolio/bkey-consulting/big/02-bkeyconsulting.webp",
         alt: "Bkey Consulting",
         blocco: 1,
         sequenza: 2,
-        mdRowSpan: 4,
+        mdRowSpan: 2,
         mdColSpan: 2,
       },
       {
-        path: "/images/portfolio/bkey-consulting/03-bkeyconsulting.webp",
+        thumbPath:
+          "/images/portfolio/bkey-consulting/thumb/03-bkeyconsulting.webp",
+        bigPath: "/images/portfolio/bkey-consulting/big/03-bkeyconsulting.webp",
         alt: "Bkey Consulting",
         blocco: 1,
         sequenza: 3,
-        mdRowSpan: 3,
-        mdColSpan: 1,
-      },
-      {
-        path: "/images/portfolio/bkey-consulting/04-bkeyconsulting.webp",
-        alt: "Bkey Consulting",
-        blocco: 2,
-        sequenza: 3,
-        mdRowSpan: 3,
+        mdRowSpan: 2,
         mdColSpan: 2,
       },
       {
-        path: "/images/portfolio/bkey-consulting/05-bkeyconsulting.webp",
+        thumbPath:
+          "/images/portfolio/bkey-consulting/thumb/05-bkeyconsulting.webp",
+        bigPath: "/images/portfolio/bkey-consulting/big/05-bkeyconsulting.webp",
+        alt: "Bkey Consulting",
+        blocco: 2,
+        sequenza: 2,
+        mdRowSpan: 3,
+        mdColSpan: 3,
+      },
+      {
+        thumbPath:
+          "/images/portfolio/bkey-consulting/thumb/04-bkeyconsulting.webp",
+        bigPath: "/images/portfolio/bkey-consulting/big/04-bkeyconsulting.webp",
         alt: "Bkey Consulting",
         blocco: 2,
         sequenza: 1,
         mdRowSpan: 2,
-        mdColSpan: 2,
-      }, */
+        mdColSpan: 1,
+      },
     ],
   },
 
@@ -643,46 +691,51 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
     notaCrediti:
       "Sito web realizzato come web developer e web designer in Pagus Media S.r.l",
     immaginiDettaglio: [
-      /* {
-        path: "/images/portfolio/enrico-capra/01-enricocapra.webp",
+      {
+        thumbPath: "/images/portfolio/enrico-capra/thumb/01-enricocapra.webp",
+        bigPath: "/images/portfolio/enrico-capra/big/01-enricocapra.webp",
         alt: "Enrico Capra",
         blocco: 1,
-        sequenza: 1,
-        mdRowSpan: 4,
-        mdColSpan: 1,
-      },
-      {
-        path: "/images/portfolio/enrico-capra/02-enricocapra.webp",
-        alt: "Enrico Capra",
-        blocco: 1,
-        sequenza: 1,
-        mdRowSpan: 4,
-        mdColSpan: 2,
-      },
-      {
-        path: "/images/portfolio/enrico-capra/03-enricocapra.webp",
-        alt: "Enrico Capra",
-        blocco: 1,
-        sequenza: 1,
-        mdRowSpan: 4,
-        mdColSpan: 1,
-      },
-      {
-        path: "/images/portfolio/enrico-capra/04-enricocapra.webp",
-        alt: "Enrico Capra",
-        blocco: 2,
         sequenza: 1,
         mdRowSpan: 3,
         mdColSpan: 2,
       },
       {
-        path: "/images/portfolio/enrico-capra/05-enricocapra.webp",
+        thumbPath: "/images/portfolio/enrico-capra/thumb/02-enricocapra.webp",
+        bigPath: "/images/portfolio/enrico-capra/big/02-enricocapra.webp",
+        alt: "Enrico Capra",
+        blocco: 1,
+        sequenza: 1,
+        mdRowSpan: 2,
+        mdColSpan: 2,
+      },
+      {
+        thumbPath: "/images/portfolio/enrico-capra/thumb/03-enricocapra.webp",
+        bigPath: "/images/portfolio/enrico-capra/big/03-enricocapra.webp",
+        alt: "Enrico Capra",
+        blocco: 1,
+        sequenza: 1,
+        mdRowSpan: 2,
+        mdColSpan: 2,
+      },
+      {
+        thumbPath: "/images/portfolio/enrico-capra/thumb/04-enricocapra.webp",
+        bigPath: "/images/portfolio/enrico-capra/big/04-enricocapra.webp",
+        alt: "Enrico Capra",
+        blocco: 2,
+        sequenza: 1,
+        mdRowSpan: 3,
+        mdColSpan: 1,
+      },
+      {
+        thumbPath: "/images/portfolio/enrico-capra/thumb/05-enricocapra.webp",
+        bigPath: "/images/portfolio/enrico-capra/big/05-enricocapra.webp",
         alt: "Enrico Capra",
         blocco: 2,
         sequenza: 1,
         mdRowSpan: 2,
         mdColSpan: 2,
-      }, */
+      },
     ],
   },
   {
@@ -695,36 +748,49 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
     mdRowSpan: 3,
     smColSpan: 1,
     variant: "revealRightToLeft",
-    slug: "#",
-    categoria: ["Siti Web", "Corporate"],
+    slug: "icg-showrooms",
+    categoria: ["Siti Web", "Branding"],
     cliente: "Iris Ceramica Group",
-    anno: "2024",
-    tipo: ["Sito showroom", "Catalogo digitale"],
-    attivita: ["Design UI", "Layout prodotti", "Visual content"],
+    anno: "2020",
+    tipo: ["Sito Web aziendale"],
+    attivita: [
+      "Web design",
+      "UI design",
+      "SEO",
+      "Sviluppo",
+      "Data Entry",
+      "DB Management",
+    ],
     descrizione:
       "Proposta di sito per showrooms aziendali con un focus sui prodotti e sul contesto espositivo. Il progetto valorizza immagini di ambiente e schede prodotto, offrendo una navigazione chiara per clienti e partner.",
-    tecnologie: ["Figma", "Photoshop", "CSS"],
+    tecnologie: ["Adobe XD", "Photoshop", "PHP", "HTML5", "SCSS", "Bootstrap"],
     notaCrediti:
       "Concept grafico realizzato come web developer e web designer in Pagus Media S.r.l",
     immaginiDettaglio: [
-      /* {
-        path: "iris_ceramica_group-1.webp",
+      {
+        thumbPath:
+          "/images/portfolio/icg-showrooms/thumb/01-icg-showrooms.webp",
+        bigPath: "/images/portfolio/icg-showrooms/big/01-icg-showrooms.webp",
         alt: "Homepage showrooms",
         blocco: 1,
         sequenza: 1,
-        mdRowSpan: 2,
+        mdRowSpan: 3,
         mdColSpan: 2,
       },
       {
-        path: "iris_ceramica_group-2.webp",
+        thumbPath:
+          "/images/portfolio/icg-showrooms/thumb/02-icg-showrooms.webp",
+        bigPath: "/images/portfolio/icg-showrooms/big/02-icg-showrooms.webp",
         alt: "Sezione prodotti",
         blocco: 1,
         sequenza: 1,
-        mdRowSpan: 2,
+        mdRowSpan: 4,
         mdColSpan: 2,
       },
       {
-        path: "iris_ceramica_group-3.webp",
+        thumbPath:
+          "/images/portfolio/icg-showrooms/thumb/03-icg-showrooms.webp",
+        bigPath: "/images/portfolio/icg-showrooms/big/03-icg-showrooms.webp",
         alt: "Mockup desktop",
         blocco: 1,
         sequenza: 1,
@@ -732,7 +798,9 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 2,
       },
       {
-        path: "iris_ceramica_group-4.webp",
+        thumbPath:
+          "/images/portfolio/icg-showrooms/thumb/04-icg-showrooms.webp",
+        bigPath: "/images/portfolio/icg-showrooms/big/04-icg-showrooms.webp",
         alt: "Visual showroom",
         blocco: 1,
         sequenza: 1,
@@ -740,7 +808,9 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 2,
       },
       {
-        path: "iris_ceramica_group-5.webp",
+        thumbPath:
+          "/images/portfolio/icg-showrooms/thumb/05-icg-showrooms.webp",
+        bigPath: "/images/portfolio/icg-showrooms/big/05-icg-showrooms.webp",
         alt: "Layout mobile",
         blocco: 1,
         sequenza: 1,
@@ -748,17 +818,19 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 2,
       },
       {
-        path: "iris_ceramica_group-6.webp",
+        thumbPath:
+          "/images/portfolio/icg-showrooms/thumb/06-icg-showrooms.webp",
+        bigPath: "/images/portfolio/icg-showrooms/big/06-icg-showrooms.webp",
         alt: "Dettaglio brand",
         blocco: 1,
         sequenza: 1,
         mdRowSpan: 2,
         mdColSpan: 2,
-      }, */
+      },
     ],
   },
   {
-    id: "farmacia-pianeri",
+    id: "farmacia-pianeri-e-mauro",
     progetto: "Farmacia Pianeri e Mauro",
     path: "/images/portfolio/farmaciapianeriemauro.webp",
     blocco: 3,
@@ -766,28 +838,36 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
     mdColSpan: 1,
     mdRowSpan: 3,
     variant: "revealVertical",
-    slug: "#",
-    categoria: ["Siti Web", "Commercial"],
+    slug: "farmacia-pianeri-e-mauro",
+    categoria: ["Siti Web"],
     cliente: "Farmacia Pianeri e Mauro",
     anno: "2023",
-    tipo: ["Sito e-commerce", "Graphic Design"],
-    attivita: ["Design responsive", "Gestione contenuti", "SEO tecnico"],
-    descrizione:
-      "Sito commerciale pensato per una farmacia locale, con un’esperienza semplice e intuitiva. Il progetto include un catalogo prodotti chiaro, una struttura SEO-friendly e una grafica rassicurante per l’utente.",
-    tecnologie: ["WordPress", "PHP", "CSS"],
+    tipo: ["Sito Vetrina"],
+    attivita: ["Sviluppo web", "Data Entry"],
+    descrizione: `Per questo progetto aziendale mi sono occupato della migrazione tecnica e dello sviluppo su piattaforma WordPress. 
+      Partendo dalle indicazioni grafiche fornite, ho realizzato un tema personalizzato rispettando in modo preciso il design originale. 
+      Ho gestito l'intera ottimizzazione delle pagine e l'attività di data entry, strutturando un catalogo prodotti chiaro e una navigazione intuitiva. 
+      Il codice è stato ottimizzato in ottica SEO per garantire la massima visibilità alla farmacia sul territorio.`,
+    tecnologie: ["Wordpress", "Divi", "PHP", "HTML", "CSS3", "SCSS"],
     notaCrediti:
-      "Concept grafico realizzato come web developer e web designer in Pagus Media S.r.l",
+      "Sito web realizzato come web developer e web designer in Pagus Media S.r.l",
     immaginiDettaglio: [
-      /* {
-        path: "farmaciapianeriemauro-1.webp",
+      {
+        thumbPath:
+          "/images/portfolio/farmacia-pianeri-e-mauro/thumb/07-farmacia-pianeri-e-mauro.webp",
+        bigPath:
+          "/images/portfolio/farmacia-pianeri-e-mauro/big/07-farmacia-pianeri-e-mauro.webp",
         alt: "Homepage farmacia",
         blocco: 1,
         sequenza: 1,
-        mdRowSpan: 2,
-        mdColSpan: 2,
+        mdRowSpan: 4,
+        mdColSpan: 1,
       },
       {
-        path: "farmaciapianeriemauro-2.webp",
+        thumbPath:
+          "/images/portfolio/farmacia-pianeri-e-mauro/thumb/01-farmacia-pianeri-e-mauro.webp",
+        bigPath:
+          "/images/portfolio/farmacia-pianeri-e-mauro/big/01-farmacia-pianeri-e-mauro.webp",
         alt: "Sezione prodotti",
         blocco: 1,
         sequenza: 1,
@@ -795,15 +875,21 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 2,
       },
       {
-        path: "farmaciapianeriemauro-3.webp",
-        alt: "Design mobile",
+        thumbPath:
+          "/images/portfolio/farmacia-pianeri-e-mauro/thumb/05-farmacia-pianeri-e-mauro.webp",
+        bigPath:
+          "/images/portfolio/farmacia-pianeri-e-mauro/big/05-farmacia-pianeri-e-mauro.webp",
+        alt: "Navigazione intuitiva",
         blocco: 1,
         sequenza: 1,
-        mdRowSpan: 2,
-        mdColSpan: 2,
+        mdRowSpan: 4,
+        mdColSpan: 1,
       },
       {
-        path: "farmaciapianeriemauro-4.webp",
+        thumbPath:
+          "/images/portfolio/farmacia-pianeri-e-mauro/thumb/03-farmacia-pianeri-e-mauro.webp",
+        bigPath:
+          "/images/portfolio/farmacia-pianeri-e-mauro/big/03-farmacia-pianeri-e-mauro.webp",
         alt: "Dettaglio grafico",
         blocco: 1,
         sequenza: 1,
@@ -811,13 +897,38 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 2,
       },
       {
-        path: "farmaciapianeriemauro-5.webp",
+        thumbPath:
+          "/images/portfolio/farmacia-pianeri-e-mauro/thumb/04-farmacia-pianeri-e-mauro.webp",
+        bigPath:
+          "/images/portfolio/farmacia-pianeri-e-mauro/big/04-farmacia-pianeri-e-mauro.webp",
         alt: "Navigazione intuitiva",
-        blocco: 1,
+        blocco: 2,
         sequenza: 1,
-        mdRowSpan: 2,
+        mdRowSpan: 3,
         mdColSpan: 2,
-      }, */
+      },
+      {
+        thumbPath:
+          "/images/portfolio/farmacia-pianeri-e-mauro/thumb/02-farmacia-pianeri-e-mauro.webp",
+        bigPath:
+          "/images/portfolio/farmacia-pianeri-e-mauro/big/02-farmacia-pianeri-e-mauro.webp",
+        alt: "Design mobile",
+        blocco: 2,
+        sequenza: 1,
+        mdRowSpan: 3,
+        mdColSpan: 1,
+      },
+      {
+        thumbPath:
+          "/images/portfolio/farmacia-pianeri-e-mauro/thumb/06-farmacia-pianeri-e-mauro.webp",
+        bigPath:
+          "/images/portfolio/farmacia-pianeri-e-mauro/big/06-farmacia-pianeri-e-mauro.webp",
+        alt: "Navigazione intuitiva",
+        blocco: 2,
+        sequenza: 1,
+        mdRowSpan: 3,
+        mdColSpan: 1,
+      },
     ],
   },
 
@@ -832,49 +943,81 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
     mdRowSpan: 4,
     variant: "revealVertical",
     slug: "pagus-media",
-    categoria: ["Web Agency", "Branding"],
+    categoria: ["Sito web", "Web Agency"],
     cliente: "Pagus Media",
-    anno: "2015",
-    tipo: ["Branding aziendale", "Sito vetrina"],
-    attivita: ["Art direction", "Web design", "Digital marketing"],
-    descrizione:
-      "Progetto per un’agenzia digitale che mette in evidenza servizi e casi studio con uno stile contemporaneo. Le pagine sono realizzate per trasmettere professionalità e versatilità nell’offerta di soluzioni web.",
-    tecnologie: ["Photoshop", "Illustrator", "HTML"],
+    anno: "2022",
+    tipo: ["Branding aziendale", "Sito istituzionale"],
+    attivita: ["Sviluppo web", "Data Entry"],
+    descrizione: `Per questo progetto aziendale mi sono occupato dello sviluppo del sito web istituzionale su piattaforma WordPress. 
+      Partendo dalle indicazioni grafiche fornite dal team, ho realizzato un tema personalizzato rispettando in modo preciso il design originale. 
+      Ho gestito l'intera ottimizzazione delle pagine e l'attività di data entry, strutturando la presentazione dei servizi dell'agenzia e del portfolio casi di studio attraverso una navigazione intuitiva. Il codice è stato interamente ottimizzato in ottica SEO per valorizzare il posizionamento del brand sui motori di ricerca.`,
+    tecnologie: ["Wordpress", "Divi", "PHP", "HTML", "CSS3", "SCSS"],
     notaCrediti:
-      "Concept grafico realizzato come web developer e web designer in Pagus Media S.r.l",
+      "Sito web realizzato come web developer e web designer in Pagus Media S.r.l",
     immaginiDettaglio: [
-      /* {
-        path: "pagusmedia-1.webp",
+      {
+        thumbPath: "/images/portfolio/pagusmedia/thumb/01-pagusmedia.webp",
+        bigPath: "/images/portfolio/pagusmedia/big/01-pagusmedia.webp",
         alt: "Homepage Pagus Media",
         blocco: 1,
         sequenza: 1,
-        mdRowSpan: 2,
-        mdColSpan: 2,
+        mdRowSpan: 4,
+        mdColSpan: 1,
       },
       {
-        path: "pagusmedia-2.webp",
+        thumbPath: "/images/portfolio/pagusmedia/thumb/02-pagusmedia.webp",
+        bigPath: "/images/portfolio/pagusmedia/big/02-pagusmedia.webp",
         alt: "Sezione servizi",
         blocco: 1,
         sequenza: 1,
-        mdRowSpan: 2,
-        mdColSpan: 2,
+        mdRowSpan: 4,
+        mdColSpan: 1,
       },
       {
-        path: "pagusmedia-3.webp",
+        thumbPath: "/images/portfolio/pagusmedia/thumb/03-pagusmedia.webp",
+        bigPath: "/images/portfolio/pagusmedia/big/03-pagusmedia.webp",
         alt: "Design portfolio",
         blocco: 1,
         sequenza: 1,
+        mdRowSpan: 4,
+        mdColSpan: 2,
+      },
+      {
+        thumbPath: "/images/portfolio/pagusmedia/thumb/04-pagusmedia.webp",
+        bigPath: "/images/portfolio/pagusmedia/big/04-pagusmedia.webp",
+        alt: "Visual identity",
+        blocco: 2,
+        sequenza: 1,
+        mdRowSpan: 4,
+        mdColSpan: 1,
+      },
+      {
+        thumbPath: "/images/portfolio/pagusmedia/thumb/05-pagusmedia.webp",
+        bigPath: "/images/portfolio/pagusmedia/big/05-pagusmedia.webp",
+        alt: "Visual identity",
+        blocco: 2,
+        sequenza: 1,
         mdRowSpan: 2,
         mdColSpan: 2,
       },
       {
-        path: "pagusmedia-4.webp",
+        thumbPath: "/images/portfolio/pagusmedia/thumb/06-pagusmedia.webp",
+        bigPath: "/images/portfolio/pagusmedia/big/06-pagusmedia.webp",
         alt: "Visual identity",
-        blocco: 1,
+        blocco: 2,
+        sequenza: 1,
+        mdRowSpan: 4,
+        mdColSpan: 1,
+      },
+      {
+        thumbPath: "/images/portfolio/pagusmedia/thumb/07-pagusmedia.webp",
+        bigPath: "/images/portfolio/pagusmedia/big/07-pagusmedia.webp",
+        alt: "Visual identity",
+        blocco: 2,
         sequenza: 1,
         mdRowSpan: 2,
         mdColSpan: 2,
-      }, */
+      },
     ],
   },
   {
