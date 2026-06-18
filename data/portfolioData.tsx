@@ -338,7 +338,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
     notaCrediti:
       "Sito web realizzato come web developer e web designer in Pagus Media S.r.l",
     immaginiDettaglio: [
-      {
+      /* {
         path: "/images/portfolio/fondazione-irisceramicagroup/01-fondazione.webp",
         alt: "Fondazione Iris Ceramica Group",
         blocco: 1,
@@ -385,7 +385,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         sequenza: 1,
         mdRowSpan: 4,
         mdColSpan: 2,
-      },
+      }, */
     ],
   },
   {
@@ -416,7 +416,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
     notaCrediti:
       "Concept grafico realizzato come web developer e web designer in Pagus Media S.r.l",
     immaginiDettaglio: [
-      {
+      /*  {
         path: "/images/portfolio/ferrari/01-ferrari.webp",
         alt: "Ferrari",
         blocco: 1,
@@ -487,7 +487,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         sequenza: 1,
         mdRowSpan: 2,
         mdColSpan: 4,
-      },
+      }, */
     ],
   },
   {
@@ -512,7 +512,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
     notaCrediti:
       "Sito web realizzato come web developer e web designer in Pagus Media S.r.l",
     immaginiDettaglio: [
-      {
+      /*  {
         path: "/images/portfolio/bottega-darte/01-bottega-darte.webp",
         alt: "Bottega d'Arte",
         blocco: 1,
@@ -551,7 +551,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         sequenza: 1,
         mdRowSpan: 2,
         mdColSpan: 1,
-      },
+      }, */
     ],
   },
   {
@@ -577,7 +577,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
     notaCrediti:
       "Sito web realizzato come web developer e web designer in Pagus Media S.r.l",
     immaginiDettaglio: [
-      {
+      /* {
         path: "/images/portfolio/bkey-consulting/01-bkeyconsulting.webp",
         alt: "Bkey Consulting",
         blocco: 1,
@@ -616,7 +616,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         sequenza: 1,
         mdRowSpan: 2,
         mdColSpan: 2,
-      },
+      }, */
     ],
   },
 
@@ -643,7 +643,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
     notaCrediti:
       "Sito web realizzato come web developer e web designer in Pagus Media S.r.l",
     immaginiDettaglio: [
-      {
+      /* {
         path: "/images/portfolio/enrico-capra/01-enricocapra.webp",
         alt: "Enrico Capra",
         blocco: 1,
@@ -682,7 +682,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         sequenza: 1,
         mdRowSpan: 2,
         mdColSpan: 2,
-      },
+      }, */
     ],
   },
   {
@@ -707,7 +707,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
     notaCrediti:
       "Concept grafico realizzato come web developer e web designer in Pagus Media S.r.l",
     immaginiDettaglio: [
-      {
+      /* {
         path: "iris_ceramica_group-1.webp",
         alt: "Homepage showrooms",
         blocco: 1,
@@ -754,7 +754,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         sequenza: 1,
         mdRowSpan: 2,
         mdColSpan: 2,
-      },
+      }, */
     ],
   },
   {
@@ -778,7 +778,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
     notaCrediti:
       "Concept grafico realizzato come web developer e web designer in Pagus Media S.r.l",
     immaginiDettaglio: [
-      {
+      /* {
         path: "farmaciapianeriemauro-1.webp",
         alt: "Homepage farmacia",
         blocco: 1,
@@ -817,7 +817,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         sequenza: 1,
         mdRowSpan: 2,
         mdColSpan: 2,
-      },
+      }, */
     ],
   },
 
@@ -843,7 +843,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
     notaCrediti:
       "Concept grafico realizzato come web developer e web designer in Pagus Media S.r.l",
     immaginiDettaglio: [
-      {
+      /* {
         path: "pagusmedia-1.webp",
         alt: "Homepage Pagus Media",
         blocco: 1,
@@ -874,7 +874,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         sequenza: 1,
         mdRowSpan: 2,
         mdColSpan: 2,
-      },
+      }, */
     ],
   },
   {
@@ -899,7 +899,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
     notaCrediti:
       "Concept grafico realizzato come web developer e web designer in Pagus Media S.r.l",
     immaginiDettaglio: [
-      {
+      /* {
         path: "marchesenutrizionista-1.webp",
         alt: "Homepage Marchese Nutrizionista",
         blocco: 1,
@@ -930,7 +930,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         sequenza: 1,
         mdRowSpan: 2,
         mdColSpan: 2,
-      },
+      }, */
     ],
   },
   {
@@ -955,7 +955,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
     notaCrediti:
       "Concept grafico realizzato come web developer e web designer in Pagus Media S.r.l",
     immaginiDettaglio: [
-      {
+      /*  {
         path: "gerber_rauth-1.webp",
         alt: "Homepage Gerber Rauth",
         blocco: 1,
@@ -986,7 +986,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         sequenza: 1,
         mdRowSpan: 2,
         mdColSpan: 2,
-      },
+      }, */
     ],
   },
   {
@@ -1010,7 +1010,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
     notaCrediti:
       "Concept grafico realizzato come web developer e web designer in Pagus Media S.r.l",
     immaginiDettaglio: [
-      {
+      /* {
         path: "graphicom-1.webp",
         alt: "Homepage Graphicom",
         blocco: 1,
@@ -1057,7 +1057,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         sequenza: 7,
         mdRowSpan: 2,
         mdColSpan: 2,
-      },
+      }, */
     ],
   },
 ];
