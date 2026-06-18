@@ -1,5 +1,6 @@
 export interface ImmagineDettaglio {
-  path: string;
+  thumbPath: string;
+  bigPath: string;
   alt: string;
   blocco: number;
   sequenza: number;
@@ -61,7 +62,9 @@ export const portfolioItems: PortfolioItem[] = [
     notaCrediti: "",
     immaginiDettaglio: [
       {
-        path: "/images/portfolio/carlo-astolfi-cv/01-carloastolfi.webp",
+        thumbPath:
+          "/images/portfolio/carlo-astolfi-cv/thumb/01-carloastolfi.webp",
+        bigPath: "/images/portfolio/carlo-astolfi-cv/big/01-carloastolfi.webp",
         alt: "Carlo Astolfi CV",
         blocco: 1,
         sequenza: 1,
@@ -69,7 +72,9 @@ export const portfolioItems: PortfolioItem[] = [
         mdColSpan: 2,
       },
       {
-        path: "/images/portfolio/carlo-astolfi-cv/02-carloastolfi.webp",
+        thumbPath:
+          "/images/portfolio/carlo-astolfi-cv/thumb/02-carloastolfi.webp",
+        bigPath: "/images/portfolio/carlo-astolfi-cv/big/02-carloastolfi.webp",
         alt: "Carlo Astolfi CV",
         blocco: 1,
         sequenza: 1,
@@ -77,7 +82,9 @@ export const portfolioItems: PortfolioItem[] = [
         mdColSpan: 2,
       },
       {
-        path: "/images/portfolio/carlo-astolfi-cv/03-carloastolfi.webp",
+        thumbPath:
+          "/images/portfolio/carlo-astolfi-cv/thumb/03-carloastolfi.webp",
+        bigPath: "/images/portfolio/carlo-astolfi-cv/big/03-carloastolfi.webp",
         alt: "Carlo Astolfi CV",
         blocco: 1,
         sequenza: 1,
@@ -85,7 +92,9 @@ export const portfolioItems: PortfolioItem[] = [
         mdColSpan: 1,
       },
       {
-        path: "/images/portfolio/carlo-astolfi-cv/04-carloastolfi.webp",
+        thumbPath:
+          "/images/portfolio/carlo-astolfi-cv/thumb/04-carloastolfi.webp",
+        bigPath: "/images/portfolio/carlo-astolfi-cv/big/04-carloastolfi.webp",
         alt: "Carlo Astolfi CV",
         blocco: 1,
         sequenza: 1,
@@ -94,7 +103,9 @@ export const portfolioItems: PortfolioItem[] = [
       },
 
       {
-        path: "/images/portfolio/carlo-astolfi-cv/05-carloastolfi.webp",
+        thumbPath:
+          "/images/portfolio/carlo-astolfi-cv/thumb/05-carloastolfi.webp",
+        bigPath: "/images/portfolio/carlo-astolfi-cv/big/05-carloastolfi.webp",
         alt: "Carlo Astolfi CV",
         blocco: 1,
         sequenza: 1,
@@ -141,7 +152,8 @@ export const portfolioItems: PortfolioItem[] = [
       "Sito web realizzato come web developer e web designer in Pagus Media S.r.l",
     immaginiDettaglio: [
       {
-        path: "/images/portfolio/ariostea/01-ariostea.webp",
+        thumbPath: "/images/portfolio/ariostea/thumb/01-ariostea.webp",
+        bigPath: "/images/portfolio/ariostea/big/01-ariostea.webp",
         alt: "Ariostea",
         blocco: 1,
         sequenza: 1,
@@ -149,7 +161,8 @@ export const portfolioItems: PortfolioItem[] = [
         mdColSpan: 1,
       },
       {
-        path: "/images/portfolio/ariostea/02-ariostea.webp",
+        thumbPath: "/images/portfolio/ariostea/thumb/02-ariostea.webp",
+        bigPath: "/images/portfolio/ariostea/big/02-ariostea.webp",
         alt: "Ariostea",
         blocco: 1,
         sequenza: 1,
@@ -157,7 +170,8 @@ export const portfolioItems: PortfolioItem[] = [
         mdColSpan: 2,
       },
       {
-        path: "/images/portfolio/ariostea/03-ariostea.webp",
+        thumbPath: "/images/portfolio/ariostea/thumb/03-ariostea.webp",
+        bigPath: "/images/portfolio/ariostea/big/03-ariostea.webp",
         alt: "Ariostea",
         blocco: 1,
         sequenza: 1,
@@ -165,7 +179,8 @@ export const portfolioItems: PortfolioItem[] = [
         mdColSpan: 1,
       },
       {
-        path: "/images/portfolio/ariostea/04-ariostea.webp",
+        thumbPath: "/images/portfolio/ariostea/thumb/04-ariostea.webp",
+        bigPath: "/images/portfolio/ariostea/big/04-ariostea.webp",
         alt: "Ariostea",
         blocco: 1,
         sequenza: 1,
@@ -173,7 +188,8 @@ export const portfolioItems: PortfolioItem[] = [
         mdColSpan: 1,
       },
       {
-        path: "/images/portfolio/ariostea/05-ariostea.webp",
+        thumbPath: "/images/portfolio/ariostea/thumb/05-ariostea.webp",
+        bigPath: "/images/portfolio/ariostea/big/05-ariostea.webp",
         alt: "Ariostea",
         blocco: 1,
         sequenza: 1,
@@ -181,7 +197,8 @@ export const portfolioItems: PortfolioItem[] = [
         mdColSpan: 1,
       },
       {
-        path: "/images/portfolio/ariostea/06-ariostea.webp",
+        thumbPath: "/images/portfolio/ariostea/thumb/06-ariostea.webp",
+        bigPath: "/images/portfolio/ariostea/big/06-ariostea.webp",
         alt: "Ariostea",
         blocco: 1,
         sequenza: 1,
@@ -190,7 +207,8 @@ export const portfolioItems: PortfolioItem[] = [
       },
 
       {
-        path: "/images/portfolio/ariostea/07-ariostea.webp",
+        thumbPath: "/images/portfolio/ariostea/thumb/07-ariostea.webp",
+        bigPath: "/images/portfolio/ariostea/big/07-ariostea.webp",
         alt: "Ariostea",
         blocco: 1,
         sequenza: 1,
@@ -224,15 +242,17 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
       "Concept grafico realizzato come web developer e web designer in Pagus Media S.r.l",
     immaginiDettaglio: [
       {
-        path: "/images/portfolio/iris-fmg/01-irisfmg.webp",
+        thumbPath: "/images/portfolio/iris-fmg/thumb/01-irisfmg.webp",
+        bigPath: "/images/portfolio/iris-fmg/big/01-irisfmg.webp",
         alt: "Iris FMG",
         blocco: 1,
         sequenza: 1,
-        mdRowSpan: 4,
+        mdRowSpan: 3,
         mdColSpan: 1,
       },
       {
-        path: "/images/portfolio/iris-fmg/02-irisfmg.webp",
+        thumbPath: "/images/portfolio/iris-fmg/thumb/02-irisfmg.webp",
+        bigPath: "/images/portfolio/iris-fmg/big/02-irisfmg.webp",
         alt: "Iris FMG",
         blocco: 1,
         sequenza: 2,
@@ -240,7 +260,8 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 2,
       },
       {
-        path: "/images/portfolio/iris-fmg/03-irisfmg.webp",
+        thumbPath: "/images/portfolio/iris-fmg/thumb/03-irisfmg.webp",
+        bigPath: "/images/portfolio/iris-fmg/big/03-irisfmg.webp",
         alt: "Iris FMG",
         blocco: 1,
         sequenza: 3,
@@ -248,7 +269,8 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 1,
       },
       {
-        path: "/images/portfolio/iris-fmg/04-irisfmg.webp",
+        thumbPath: "/images/portfolio/iris-fmg/thumb/04-irisfmg.webp",
+        bigPath: "/images/portfolio/iris-fmg/big/04-irisfmg.webp",
         alt: "Iris FMG",
         blocco: 1,
         sequenza: 4,
@@ -256,7 +278,8 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 1,
       },
       {
-        path: "/images/portfolio/iris-fmg/05-irisfmg.webp",
+        thumbPath: "/images/portfolio/iris-fmg/thumb/05-irisfmg.webp",
+        bigPath: "/images/portfolio/iris-fmg/big/05-irisfmg.webp",
         alt: "Iris FMG",
         blocco: 2,
         sequenza: 5,
@@ -264,7 +287,8 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 2,
       },
       {
-        path: "/images/portfolio/iris-fmg/06-irisfmg.webp",
+        thumbPath: "/images/portfolio/iris-fmg/thumb/06-irisfmg.webp",
+        bigPath: "/images/portfolio/iris-fmg/big/06-irisfmg.webp",
         alt: "Iris FMG",
         blocco: 2,
         sequenza: 6,
@@ -272,7 +296,8 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 2,
       },
       {
-        path: "/images/portfolio/iris-fmg/07-irisfmg.webp",
+        thumbPath: "/images/portfolio/iris-fmg/thumb/07-irisfmg.webp",
+        bigPath: "/images/portfolio/iris-fmg/big/07-irisfmg.webp",
         alt: "Iris FMG",
         blocco: 2,
         sequenza: 7,
@@ -280,7 +305,8 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 1,
       },
       {
-        path: "/images/portfolio/iris-fmg/08-irisfmg.webp",
+        thumbPath: "/images/portfolio/iris-fmg/thumb/08-irisfmg.webp",
+        bigPath: "/images/portfolio/iris-fmg/big/08-irisfmg.webp",
         alt: "Iris FMG",
         blocco: 2,
         sequenza: 8,
@@ -487,7 +513,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
       "Sito web realizzato come web developer e web designer in Pagus Media S.r.l",
     immaginiDettaglio: [
       {
-        path: "/images/portfolio/bottega-darte/www.irisceramica.it_bottega-d-arte.webp",
+        path: "/images/portfolio/bottega-darte/01-bottega-darte.webp",
         alt: "Bottega d'Arte",
         blocco: 1,
         sequenza: 1,
@@ -495,7 +521,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 1,
       },
       {
-        path: "/images/portfolio/bottega-darte/www.irisceramica.it_bottega-d-arte_citta-di-faenza.webp",
+        path: "/images/portfolio/bottega-darte/02-bottega-darte.webp",
         alt: "Bottega d'Arte",
         blocco: 1,
         sequenza: 1,
@@ -503,7 +529,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 2,
       },
       {
-        path: "/images/portfolio/bottega-darte/bottega-d-arte-1.webp",
+        path: "/images/portfolio/bottega-darte/03-bottega-darte.webp",
         alt: "Bottega d'Arte",
         blocco: 1,
         sequenza: 1,
@@ -511,7 +537,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 1,
       },
       {
-        path: "/images/portfolio/bottega-darte/bottega-d-arte-2.webp",
+        path: "/images/portfolio/bottega-darte/04-bottega-darte.webp",
         alt: "Bottega d'Arte",
         blocco: 2,
         sequenza: 1,
@@ -519,7 +545,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 2,
       },
       {
-        path: "/images/portfolio/bottega-darte/bottega-d-arte-3.webp",
+        path: "/images/portfolio/bottega-darte/05-bottega-darte.webp",
         alt: "Bottega d'Arte",
         blocco: 2,
         sequenza: 1,
@@ -618,7 +644,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
       "Sito web realizzato come web developer e web designer in Pagus Media S.r.l",
     immaginiDettaglio: [
       {
-        path: "/images/portfolio/enrico-capra/www-enricocapra-com.webp",
+        path: "/images/portfolio/enrico-capra/01-enricocapra.webp",
         alt: "Enrico Capra",
         blocco: 1,
         sequenza: 1,
@@ -626,7 +652,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 1,
       },
       {
-        path: "/images/portfolio/enrico-capra/www-enricocapra-com_collezioni.webp",
+        path: "/images/portfolio/enrico-capra/02-enricocapra.webp",
         alt: "Enrico Capra",
         blocco: 1,
         sequenza: 1,
@@ -634,7 +660,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 2,
       },
       {
-        path: "/images/portfolio/enrico-capra/www-enricocapra-com_azienda.webp",
+        path: "/images/portfolio/enrico-capra/03-enricocapra.webp",
         alt: "Enrico Capra",
         blocco: 1,
         sequenza: 1,
@@ -642,7 +668,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 1,
       },
       {
-        path: "/images/portfolio/enrico-capra/www-enricocapra-com_ispirazione.webp",
+        path: "/images/portfolio/enrico-capra/04-enricocapra.webp",
         alt: "Enrico Capra",
         blocco: 2,
         sequenza: 1,
@@ -650,7 +676,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 2,
       },
       {
-        path: "/images/portfolio/enrico-capra/www-enricocapra-com_contatti.webp",
+        path: "/images/portfolio/enrico-capra/05-enricocapra.webp",
         alt: "Enrico Capra",
         blocco: 2,
         sequenza: 1,

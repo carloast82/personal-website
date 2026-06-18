@@ -62,7 +62,7 @@ export default function GalleryProgetto({
   const tutteLeImmagini = blocchiArray
     .flatMap((blocco: any) => blocco)
     .map((item: any) => ({
-      src: item.path,
+      src: item.bigPath,
       alt: item.alt,
     }));
 
@@ -97,7 +97,7 @@ export default function GalleryProgetto({
                   .join(" ");
 
                 const posizioneGlobale = tutteLeImmagini.findIndex(
-                  (img: any) => img.src === item.path,
+                  (img: any) => img.src === item.bigPath,
                 );
 
                 const effetto =
@@ -119,13 +119,14 @@ export default function GalleryProgetto({
                     variants={selectedVariant}
                   >
                     <Image
-                      src={item.path}
+                      src={item.thumbPath}
                       alt={item.alt || "Immagine"}
                       fill
                       // 👈 2. Spostati gli effetti hover solo su schermi medi/grandi (md:), aggiunto z-0
                       className="object-cover z-0 transition-transform duration-500 md:group-hover:scale-105 md:group-hover:blur-xs"
                       sizes="(max-width: 768px) 100vw, 800px"
                       priority
+                      unoptimized
                     />
                     <div className="absolute inset-0 bg-linear-to-t from-black/50 via-black/10 to-transparent opacity-0 md:group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6 z-10">
                       <span className="text-white font-mono text-xs uppercase tracking-wider">
