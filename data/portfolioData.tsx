@@ -235,10 +235,10 @@ export const portfolioItems: PortfolioItem[] = [
     anno: "2021",
     tipo: ["Concept Grafico", "Sito Istituzionale"],
     attivita: ["Graphic design", "UI concept"],
-    descrizione: `Il progetto ha riguardato la proposta grafica e lo studio dell’interfaccia utente (UI), con l’obiettivo di delineare un'esperienza visiva moderna, coerente e intuitiva.
+    descrizione: `Il progetto ha riguardato la proposta grafica e lo studio dell'interfaccia utente (UI), con l'obiettivo di delineare un'esperienza visiva moderna, coerente e intuitiva.
 Il lavoro si è concentrato sullo sviluppo concept della Home Page, definendo l'identità visiva del sito per poi declinarne il layout e lo stile sulle diverse sezioni interne.
 Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navigazione e una chiara gerarchia delle informazioni. Il progetto è stato interamente finalizzato a livello di mockup visivo e non ha previsto una successiva fase di sviluppo tecnico o pubblicazione online.`,
-    tecnologie: ["Adobe XD", "Figma", "HTML", "CSS"],
+    tecnologie: ["Adobe XD", "Figma", "HTML5", "CSS"],
     notaCrediti:
       "Concept grafico realizzato come web developer e web designer in Pagus Media S.r.l",
     immaginiDettaglio: [
@@ -431,7 +431,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
     ],
     descrizione:
       "Ho curato la progettazione visiva e la realizzazione dei materiali digitali per una campagna di advertising multipiattaforma. Il progetto ha previsto la creazione di formati ad alto impatto per diversi touchpoint: dai banner web ai visual per i social network, fino a wallpaper dedicati. Sfruttando Photoshop e Illustrator per la parte di grafica editoriale, e HTML/CSS per i formati web interattivi, ho sviluppato layout moderni e coerenti, pensati per catturare l'attenzione dell'utente e massimizzare l'engagement sui canali digitali.",
-    tecnologie: ["Photoshop", "Illustrator", "HTML", "CSS"],
+    tecnologie: ["Photoshop", "Illustrator", "HTML5", "CSS"],
     notaCrediti:
       "Concept grafico realizzato come web developer e web designer in Pagus Media S.r.l",
     immaginiDettaglio: [
@@ -536,7 +536,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
     descrizione: `Ho curato la progettazione e lo sviluppo di una pagina web dedicata al lancio di una nuova collezione speciale di Iris Ceramica. 
       Il lavoro è partito dalla definizione della brand identity e del web design su Photoshop, con l'obiettivo di valorizzare l'estetica artigianale del prodotto. 
       Sul fronte tecnico, ho implementato la pagina in HTML, CSS e PHP, curando lo sviluppo dei visual e ottimizzando il layout affinché l'esperienza d'uso fosse fluida, curata nei dettagli e reattiva sia su desktop che su mobile.`,
-    tecnologie: ["Photoshop", "CSS", "PHP", "HTML", "Bootstrap"],
+    tecnologie: ["Photoshop", "CSS", "PHP", "HTML5", "Bootstrap"],
     notaCrediti:
       "Sito web realizzato come web developer e web designer in Pagus Media S.r.l",
     immaginiDettaglio: [
@@ -611,7 +611,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
     descrizione: `Per questo progetto aziendale mi sono occupato dell'intero sviluppo tecnico, traducendo fedelmente il design fornito in template statici (HTML/CSS3/JavaScript/jQuery) e convertendoli successivamente in codice dinamico. 
       Ho sviluppato da zero un sistema di backend gestionale custom in PHP e MySQL, collegandolo al sito per consentire una gestione flessibile dei contenuti aziendali. 
       L'architettura del codice è stata strutturata per garantire un layout leggero, una perfetta leggibilità dei testi e la massima efficacia delle call-to-action.`,
-    tecnologie: ["PHP", "jQuery", "HTML", "CSS3", "Bootstrap"],
+    tecnologie: ["PHP", "jQuery", "HTML5", "CSS3", "Bootstrap"],
     notaCrediti:
       "Sito web realizzato come web developer e web designer in Pagus Media S.r.l",
     immaginiDettaglio: [
@@ -687,7 +687,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
     descrizione: `Per questo progetto mi sono occupato interamente dello sviluppo web su piattaforma WordPress. 
       Partendo dai layout grafici approvati, ho realizzato il sito vetrina rispettando minuziosamente ogni linea guida visiva per garantire la massima fedeltà con il design originale. 
       Il sito è stato strutturato per mettere in primo piano il profilo professionale, i servizi e lo storytelling del cliente, traducendo l'identità visiva in un layout moderno, leggero e perfettamente bilanciato.`,
-    tecnologie: ["Wordpress", "UX Builder", "PHP", "HTML", "CSS"],
+    tecnologie: ["Wordpress", "UX Builder", "PHP", "HTML5", "CSS"],
     notaCrediti:
       "Sito web realizzato come web developer e web designer in Pagus Media S.r.l",
     immaginiDettaglio: [
@@ -848,7 +848,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
       Partendo dalle indicazioni grafiche fornite, ho realizzato un tema personalizzato rispettando in modo preciso il design originale. 
       Ho gestito l'intera ottimizzazione delle pagine e l'attività di data entry, strutturando un catalogo prodotti chiaro e una navigazione intuitiva. 
       Il codice è stato ottimizzato in ottica SEO per garantire la massima visibilità alla farmacia sul territorio.`,
-    tecnologie: ["Wordpress", "Divi", "PHP", "HTML", "CSS3", "SCSS"],
+    tecnologie: ["Wordpress", "Divi", "PHP", "HTML5", "CSS3", "SCSS"],
     notaCrediti:
       "Sito web realizzato come web developer e web designer in Pagus Media S.r.l",
     immaginiDettaglio: [
@@ -951,7 +951,7 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
     descrizione: `Per questo progetto aziendale mi sono occupato dello sviluppo del sito web istituzionale su piattaforma WordPress. 
       Partendo dalle indicazioni grafiche fornite dal team, ho realizzato un tema personalizzato rispettando in modo preciso il design originale. 
       Ho gestito l'intera ottimizzazione delle pagine e l'attività di data entry, strutturando la presentazione dei servizi dell'agenzia e del portfolio casi di studio attraverso una navigazione intuitiva. Il codice è stato interamente ottimizzato in ottica SEO per valorizzare il posizionamento del brand sui motori di ricerca.`,
-    tecnologie: ["Wordpress", "Divi", "PHP", "HTML", "CSS3", "SCSS"],
+    tecnologie: ["Wordpress", "Divi", "PHP", "HTML5", "CSS3", "SCSS"],
     notaCrediti:
       "Sito web realizzato come web developer e web designer in Pagus Media S.r.l",
     immaginiDettaglio: [
@@ -1030,50 +1030,74 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
     mdRowSpan: 3,
     smColSpan: 1,
     variant: "revealRightToLeft",
-    slug: "#",
+    slug: "marchese-nutrizionista",
     categoria: ["Siti Web", "Health"],
     cliente: "Marchese Nutrizionista",
     anno: "2022",
     tipo: ["Sito personale", "Servizi digitali"],
-    attivita: ["UI design", "Contenuti informativi", "Personal branding"],
-    descrizione:
-      "Sito personale pensato per un professionista del benessere, con contenuti chiari e un tono rassicurante. Il layout supporta la scoperta dei servizi, dei piani e delle testimonianze in modo semplice e accessibile.",
-    tecnologie: ["Figma", "Next.js", "CSS"],
+    attivita: ["Sviluppo web", "Data Entry"],
+    descrizione: `Per questo progetto l'obiettivo principale era l'ottimizzazione dei tempi di consegna. 
+      Ho gestito lo sviluppo su WordPress partendo da un layout base, modificando, riassemblando e personalizzando i diversi componenti tramite il builder Divi per ottenere una messa online in tempi brevissimi. 
+      Mi sono occupato del data entry e della strutturazione dei contenuti, organizzando la presentazione delle aree di specializzazione, delle modalità di consulenza e dei dettagli di contatto all'interno di un'interfaccia chiara, accessibile e coerente con le esigenze del professionista.`,
+    tecnologie: ["Wordpress", "Divi", "PHP", "HTML5", "CSS3", "SCSS"],
     notaCrediti:
-      "Concept grafico realizzato come web developer e web designer in Pagus Media S.r.l",
+      "Sito web realizzato come web developer e web designer in Pagus Media S.r.l",
     immaginiDettaglio: [
-      /* {
-        path: "marchesenutrizionista-1.webp",
+      {
+        thumbPath:
+          "/images/portfolio/marchese-nutrizionista/thumb/01-marchese-nutrizionista.webp",
+        bigPath:
+          "/images/portfolio/marchese-nutrizionista/big/01-marchese-nutrizionista.webp",
+        alt: "Pagina servizi",
+        blocco: 1,
+        sequenza: 1,
+        mdRowSpan: 4,
+        mdColSpan: 2,
+      },
+      {
+        thumbPath:
+          "/images/portfolio/marchese-nutrizionista/thumb/02-marchese-nutrizionista.webp",
+        bigPath:
+          "/images/portfolio/marchese-nutrizionista/big/02-marchese-nutrizionista.webp",
+        alt: "Sezione contatti",
+        blocco: 1,
+        sequenza: 1,
+        mdRowSpan: 3,
+        mdColSpan: 1,
+      },
+      {
+        thumbPath:
+          "/images/portfolio/marchese-nutrizionista/thumb/03-marchese-nutrizionista.webp",
+        bigPath:
+          "/images/portfolio/marchese-nutrizionista/big/03-marchese-nutrizionista.webp",
+        alt: "Design responsive",
+        blocco: 1,
+        sequenza: 1,
+        mdRowSpan: 3,
+        mdColSpan: 1,
+      },
+      {
+        thumbPath:
+          "/images/portfolio/marchese-nutrizionista/thumb/04-marchese-nutrizionista.webp",
+        bigPath:
+          "/images/portfolio/marchese-nutrizionista/big/04-marchese-nutrizionista.webp",
+        alt: "Design responsive",
+        blocco: 1,
+        sequenza: 1,
+        mdRowSpan: 2,
+        mdColSpan: 2,
+      },
+      {
+        thumbPath:
+          "/images/portfolio/marchese-nutrizionista/thumb/05-marchese-nutrizionista.webp",
+        bigPath:
+          "/images/portfolio/marchese-nutrizionista/big/05-marchese-nutrizionista.webp",
         alt: "Homepage Marchese Nutrizionista",
         blocco: 1,
         sequenza: 1,
         mdRowSpan: 2,
         mdColSpan: 2,
       },
-      {
-        path: "marchesenutrizionista-2.webp",
-        alt: "Pagina servizi",
-        blocco: 1,
-        sequenza: 1,
-        mdRowSpan: 2,
-        mdColSpan: 2,
-      },
-      {
-        path: "marchesenutrizionista-3.webp",
-        alt: "Sezione contatti",
-        blocco: 1,
-        sequenza: 1,
-        mdRowSpan: 2,
-        mdColSpan: 2,
-      },
-      {
-        path: "marchesenutrizionista-4.webp",
-        alt: "Design responsive",
-        blocco: 1,
-        sequenza: 1,
-        mdRowSpan: 2,
-        mdColSpan: 2,
-      }, */
     ],
   },
   {
@@ -1086,28 +1110,30 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
     mdRowSpan: 2,
     smColSpan: 1,
     variant: "revealLeftToRight",
-    slug: "#",
+    slug: "gerber-rauth",
     categoria: ["Siti Web", "Corporate"],
     cliente: "Gerber Rauth",
-    anno: "2021",
+    anno: "2023",
     tipo: ["Sito aziendale", "Concept Grafico"],
-    attivita: ["Design visivo", "User experience", "Contenuti web"],
-    descrizione:
-      "Sito aziendale con un approccio sobrio ed elegante per rafforzare l’identità del business. Il progetto supporta informazioni corporate, presentazioni di servizi e una navigazione immediata per clienti e partner.",
-    tecnologie: ["Adobe XD", "CSS", "JavaScript"],
+    attivita: ["Sviluppo web", "Data Entry"],
+    descrizione: `Il progetto per Gerber Rauth si è focalizzato sulla modernizzazione dell'identità digitale aziendale, introducendo un layout più pulito e funzionale. 
+    La struttura è stata ripensata per supportare al meglio le diverse sezioni operative, migliorando la navigazione tra i servizi offerti e le informazioni corporate. L'intervento ha incluso sia l'adeguamento grafico che l'ottimizzazione dei contenuti, per garantire una presentazione professionale e immediata per clienti e partner.`,
+    tecnologie: ["Wordpress", "Flatsome", "PHP", "HTML5", "CSS3", "SCSS"],
     notaCrediti:
-      "Concept grafico realizzato come web developer e web designer in Pagus Media S.r.l",
+      "Sito web realizzato come web developer e web designer in Pagus Media S.r.l",
     immaginiDettaglio: [
-      /*  {
-        path: "gerber_rauth-1.webp",
+      {
+        thumbPath: "/images/portfolio/gerber-rauth/thumb/01-gerber-rauth.webp",
+        bigPath: "/images/portfolio/gerber-rauth/big/01-gerber-rauth.webp",
         alt: "Homepage Gerber Rauth",
         blocco: 1,
         sequenza: 1,
-        mdRowSpan: 2,
+        mdRowSpan: 4,
         mdColSpan: 2,
       },
       {
-        path: "gerber_rauth-2.webp",
+        thumbPath: "/images/portfolio/gerber-rauth/thumb/02-gerber-rauth.webp",
+        bigPath: "/images/portfolio/gerber-rauth/big/02-gerber-rauth.webp",
         alt: "Sezione servizi",
         blocco: 1,
         sequenza: 1,
@@ -1115,21 +1141,14 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 2,
       },
       {
-        path: "gerber_rauth-3.webp",
+        thumbPath: "/images/portfolio/gerber-rauth/thumb/03-gerber-rauth.webp",
+        bigPath: "/images/portfolio/gerber-rauth/big/03-gerber-rauth.webp",
         alt: "Mockup desktop",
         blocco: 1,
         sequenza: 1,
         mdRowSpan: 2,
         mdColSpan: 2,
       },
-      {
-        path: "gerber_rauth-4.webp",
-        alt: "Visual brand",
-        blocco: 1,
-        sequenza: 1,
-        mdRowSpan: 2,
-        mdColSpan: 2,
-      }, */
     ],
   },
   {
@@ -1144,49 +1163,55 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
     slug: "graphicom",
     categoria: ["Graphic Design", "Siti Web"],
     cliente: "Graphicom",
-    anno: "2019",
-    tipo: ["Graphic concept", "Web layout"],
-    attivita: ["Concept visivo", "Web design", "Advertising digital"],
-    descrizione:
-      "Proposta creativa per un’agenzia di comunicazione con un’alternanza di elementi visivi dinamici e contenuti di impatto. Il sito è studiato per una presentazione grafica forte, adatta alla promozione di servizi creativi.",
-    tecnologie: ["Illustrator", "Photoshop", "Figma"],
+    anno: "2023",
+    tipo: ["Sito aziendale"],
+    attivita: ["Sviluppo web", "Data Entry"],
+    descrizione: `Sito aziendale realizzato per Graphicom, con un'alternanza di elementi visivi dinamici e contenuti di impatto. Il sito è studiato per una presentazione grafica forte, adatta alla promozione di servizi creativi.
+      Per questo progetto mi sono occupato dello sviluppo web su piattaforma WordPress. Partendo dai layout grafici dedicati, ho realizzato i template personalizzati utilizzando il builder Flatsome, garantendo la massima fedeltà e precisione tecnica rispetto al design originale.
+      Ho gestito l'ottimizzazione del codice e l'attività di data entry per strutturare la presentazione dei servizi di stampa e delle lavorazioni, traducendo il progetto visivo in un sito aziendale solido, leggero e facile da navigare.`,
+    tecnologie: ["Wordpress", "Flatsome", "PHP", "HTML5", "CSS3", "SCSS"],
     notaCrediti:
-      "Concept grafico realizzato come web developer e web designer in Pagus Media S.r.l",
+      "Sito web realizzato come web developer e web designer in Pagus Media S.r.l",
     immaginiDettaglio: [
-      /* {
-        path: "graphicom-1.webp",
+      {
+        thumbPath: "/images/portfolio/graphicom/thumb/01-graphicom.webp",
+        bigPath: "/images/portfolio/graphicom/big/01-graphicom.webp",
         alt: "Homepage Graphicom",
         blocco: 1,
         sequenza: 2,
-        mdRowSpan: 2,
+        mdRowSpan: 4,
         mdColSpan: 2,
       },
       {
-        path: "graphicom-2.webp",
+        thumbPath: "/images/portfolio/graphicom/thumb/02-graphicom.webp",
+        bigPath: "/images/portfolio/graphicom/big/02-graphicom.webp",
         alt: "Sezione portfolio",
         blocco: 1,
         sequenza: 3,
-        mdRowSpan: 2,
-        mdColSpan: 2,
+        mdRowSpan: 4,
+        mdColSpan: 1,
       },
       {
-        path: "graphicom-3.webp",
+        thumbPath: "/images/portfolio/graphicom/thumb/03-graphicom.webp",
+        bigPath: "/images/portfolio/graphicom/big/03-graphicom.webp",
         alt: "Design mobile",
         blocco: 1,
         sequenza: 4,
         mdRowSpan: 2,
-        mdColSpan: 2,
+        mdColSpan: 1,
       },
       {
-        path: "graphicom-4.webp",
+        thumbPath: "/images/portfolio/graphicom/thumb/04-graphicom.webp",
+        bigPath: "/images/portfolio/graphicom/big/04-graphicom.webp",
         alt: "Dettaglio visual",
         blocco: 1,
         sequenza: 5,
         mdRowSpan: 2,
-        mdColSpan: 2,
+        mdColSpan: 1,
       },
       {
-        path: "graphicom-5.webp",
+        thumbPath: "/images/portfolio/graphicom/thumb/05-graphicom.webp",
+        bigPath: "/images/portfolio/graphicom/big/05-graphicom.webp",
         alt: "Tipografia e colori",
         blocco: 2,
         sequenza: 6,
@@ -1194,13 +1219,23 @@ Ogni pagina è stata strutturata per garantire armonia visiva, fluidità di navi
         mdColSpan: 2,
       },
       {
-        path: "graphicom-6.webp",
+        thumbPath: "/images/portfolio/graphicom/thumb/06-graphicom.webp",
+        bigPath: "/images/portfolio/graphicom/big/06-graphicom.webp",
+        alt: "Mockup desktop",
+        blocco: 2,
+        sequenza: 7,
+        mdRowSpan: 4,
+        mdColSpan: 2,
+      },
+      {
+        thumbPath: "/images/portfolio/graphicom/thumb/07-graphicom.webp",
+        bigPath: "/images/portfolio/graphicom/big/07-graphicom.webp",
         alt: "Mockup desktop",
         blocco: 2,
         sequenza: 7,
         mdRowSpan: 2,
         mdColSpan: 2,
-      }, */
+      },
     ],
   },
 ];
