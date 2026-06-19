@@ -126,7 +126,7 @@ export default function Footer() {
             <div className="flex flex-col items-center md:items-start gap-4 pt-2">
               {/* Download CV */}
               <a
-                href="/cv_Astolfi_Carlo.pdf"
+                href="/CV-Carlo-Astolfi-06-2026.pdf"
                 download
                 className="group flex items-center gap-3 font-sans text-sm text-white/70 hover:text-white transition-colors"
               >

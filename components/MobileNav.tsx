@@ -124,7 +124,7 @@ export default function MobileNav() {
             <div className="flex flex-col items-center md:items-start border-t border-bianco pt-8 mt-8 gap-4 w-full">
               {/* Download CV */}
               <a
-                href="/cv_Astolfi_Carlo.pdf"
+                href="/CV-Carlo-Astolfi-06-2026.pdf"
                 download
                 className="group flex items-center gap-3 font-sans text-sm text-white/70 hover:text-white transition-colors mb-4"
               >
