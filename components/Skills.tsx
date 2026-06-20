@@ -218,8 +218,8 @@ export default function Skills() {
               CMS e Marketing
             </h3>
             <p className="font-sans text-xs text-grigio-medio leading-relaxed max-w-xs">
-              Ottimizzazione e posizionamento sui motori di ricerca per
-              convertire il traffico in clienti.
+              Gestione CMS, ottimizzazione SEO e configurazione di strumenti
+              analitici per campagne di marketing efficaci.
             </p>
             <div className="mt-6 flex flex-wrap gap-2">
               <span className="font-mono text-xs font-semibold text-navy bg-azzurro px-3 py-2 rounded-md">

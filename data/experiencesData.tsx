@@ -35,8 +35,8 @@ export const experiences: Experience[] = [
             e campagne pubblicitarie
           </li>
           <li>
-            Programmazione di siti web custom in PHP/MySQL e sviluppo di temi e
-            plugin per WordPress
+            Programmazione di siti web custom in PHP/MySQL, sviluppo e
+            customizzazione di temi e plugin per WordPress
           </li>
           <li>Manutenzione e aggiornamento siti Wordpress</li>
           <li>Gestione clienti</li>
@@ -65,8 +65,8 @@ export const experiences: Experience[] = [
             e campagne pubblicitarie
           </li>
           <li>
-            Programmazione di siti web custom in PHP/MySQL e sviluppo di temi e
-            plugin per WordPress
+            Programmazione di siti web custom in PHP/MySQL, sviluppo e
+            customizzazione di temi e plugin per WordPress
           </li>
           <li>Manutenzione e aggiornamento siti Wordpress</li>
           <li>Gestione clienti</li>
