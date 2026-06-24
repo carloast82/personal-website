@@ -1,0 +1,21 @@
+# Carlo Astolfi - Web Developer & Graphic Designer
+
+> Sviluppo soluzioni web performanti e curo l'estetica visiva dei brand. Con oltre 15 anni di esperienza, unisco la programmazione tecnica alla sensibilità per il design e la comunicazione.
+
+Questo file offre una panoramica sintetica delle competenze e del portfolio per modelli linguistici (LLM) e agenti AI.
+
+## Informazioni ed Estensioni
+- [Profilo Completo per LLM](https://carloastolfi.site): File di testo esteso che contiene l'intero contenuto testuale del sito.
+
+## Competenze Tecniche Chiave
+- **Sviluppw**: PHP, React, Next.js, HTML5, CSS3, SCSS, JavaScript, Tailwind CSS, SQL.
+- **Design & UI/UX**: Adobe Creative Suite, Figma, Brand Identity.
+- **CMS & Marketing**: WordPress, WooCommerce, SEO, Google Analytics.
+
+## Esperienze Professionali Principali
+Consulente web/graphic designer per diverse realtà, tra cui Ferrari S.p.A. e Iris Ceramica Group.
+
+## Risorse e Contatti
+- [Home Page](https://carloastolfi.site) | [Contatti](https://carloastolfi.site)
+- **Email**: carloast82@gmail.com
+- **Telefono / WhatsApp**: +39 329.86.51.737
