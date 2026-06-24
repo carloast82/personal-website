@@ -1,0 +1,31 @@
+# Carlo Astolfi - Full Context Profile
+
+> Profilo professionale di Carlo Astolfi, Full-Stack Web Developer e Graphic Designer con esperienza nel settore digitale, con focus su sviluppo web (PHP, React, Next.js) e design (Adobe Suite).
+
+---
+
+## Informazioni e Contatti
+- **Nome**: Carlo Astolfi
+- **Sito Web**: https://carloastolfi.site
+- **Contatti**: carloast82@gmail.com | +39 329.86.51.737
+
+---
+
+## Approccio e Competenze
+Approccio integrato tra progettazione grafica e sviluppo web.
+
+- **Sviluppo**: PHP, HTML5, CSS3, SCSS, JS, React, Next.js, Database (MySQL, Postgres).
+- **Design**: Photoshop, Illustrator, InDesign, Figma.
+- **CMS/Marketing**: WordPress, WooCommerce, SEO, GTM.
+
+---
+
+## Esperienza (Sintesi)
+*   **2012 — 2025**: Pagus Media S.r.l. (Consulenza ICG, Ferrari S.p.A.).
+*   **2008 — 2011**: Bkey Consulting S.r.l.
+*   **2004 — 2008**: Esperienze precedenti nel settore web/grafico.
+
+---
+
+## Portfolio Principale
+Progetti sviluppati per Iris Ceramica Group, Ariostea, Fondazione ICG, Ferrari S.p.A.
