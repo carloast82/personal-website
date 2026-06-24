@@ -5,7 +5,7 @@
 Questo file offre una panoramica sintetica delle competenze e del portfolio per modelli linguistici (LLM) e agenti AI.
 
 ## Informazioni ed Estensioni
-- [Profilo Completo per LLM](https://carloastolfi.site): File di testo esteso che contiene l'intero contenuto testuale del sito.
+- [Profilo Completo per LLM](https://carloastolfi.site/llms-full.txt): File di testo esteso che contiene l'intero contenuto testuale del sito.
 
 ## Competenze Tecniche Chiave
 - **Sviluppw**: PHP, React, Next.js, HTML5, CSS3, SCSS, JavaScript, Tailwind CSS, SQL.
@@ -16,6 +16,6 @@ Questo file offre una panoramica sintetica delle competenze e del portfolio per 
 Consulente web/graphic designer per diverse realtà, tra cui Ferrari S.p.A. e Iris Ceramica Group.
 
 ## Risorse e Contatti
-- [Home Page](https://carloastolfi.site) | [Contatti](https://carloastolfi.site)
+- [Home Page](https://carloastolfi.site) | [Contatti](https://carloastolfi.site/#contatti)
 - **Email**: carloast82@gmail.com
 - **Telefono / WhatsApp**: +39 329.86.51.737

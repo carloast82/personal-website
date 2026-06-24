@@ -32,13 +32,13 @@ export const metadata: Metadata = {
   description:
     "Sviluppo soluzioni web performanti (React, Next.js, PHP) e curo la UI/UX design. Scopri il portfolio di Carlo Astolfi, tra codice e creatività.",
   other: {
-    help: "https://carloastolfi.site",
+    help: "https://carloastolfi.site/llms.txt",
   },
   // Configurazione Open Graph (LinkedIn, FB, WhatsApp)
   openGraph: {
     title: "Carlo Astolfi | Full-Stack Web Developer & Graphic Designer",
     description:
-      "Sviluppo soluzioni web performanti e curo l'estetica visiva dei brand.",
+      "Sviluppo soluzioni web performanti e curo l'estetica visiva dei brand. Con oltre 15 anni di esperienza, unisco una solida programmazione tecnica a una forte sensibilità per il design e la comunicazione.",
     url: "https://carloastolfi.site",
     images: ["https://carloastolfi.site/og-image.jpg"], // 1200x630px raccomandata
     type: "website",
