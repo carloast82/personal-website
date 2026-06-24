@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     description:
       "Sviluppo soluzioni web performanti e curo l'estetica visiva dei brand.",
     url: "https://carloastolfi.site",
-    images: ["https://carloastolfi.site"], // 1200x630px raccomandata
+    images: ["https://carloastolfi.site/og-image.jpg"], // 1200x630px raccomandata
     type: "website",
   },
 
