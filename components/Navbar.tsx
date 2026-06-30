@@ -131,7 +131,7 @@ export default function Navbar() {
           className="hidden md:block"
         >
           <Link
-            href="/CV-Carlo-Astolfi-06-2026.pdf" // Metterai il file dentro la cartella /public
+            href="/CV-Carlo-Astolfi-07-2026.pdf"
             download
             className="font-sans text-xs font-semibold tracking-wider uppercase bg-navy hover:bg-senape/90 text-white hover:text-nero px-5 py-2.5 rounded-lg transition-all duration-300 block text-center"
           >
