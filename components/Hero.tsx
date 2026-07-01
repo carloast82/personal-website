@@ -117,7 +117,7 @@ export default function Hero() {
               <span>
                 PHP, JS, HTML5, CSS/SCSS
                 <br />
-                REACT, NEXT.JS, NODE.JS
+                REACT, NEXT.JS
               </span>
             </div>
 
