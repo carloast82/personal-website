@@ -131,7 +131,16 @@ export default function Hero() {
                   preload
                 />
               </span>
-              <span>Mobile: +39 329.86.51.737</span>
+              <span>
+                Mobile:{" "}
+                <a
+                  href="https://wa.me/393298651737"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  +39 329.86.51.737
+                </a>
+              </span>
             </div>
           </motion.div>
 
